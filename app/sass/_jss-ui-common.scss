@@ -1,0 +1,133 @@
+
+@import "grid";
+@import "compass";
+
+$total-width: 100%;
+@mixin font-size($sizeValue: 1) {
+  font-size: ($sizeValue * 16) + px;
+  font-size: $sizeValue + rem;
+}
+
+body{
+  max-width:1280px;
+  font-size: 100%;
+  line-height: 1.1em;
+}
+header {
+    position: relative;
+    color: #CCC;
+    border-radius:0px;
+    .header-logo{
+      background: image-url("../images/jss_logo.png") no-repeat scroll left top transparent;
+      color: #ffffff;
+      display: block;
+      font-size: 1.5em;
+      height: 32px;
+      margin:4px 0px 0px 5px;
+      padding:11px 0px 0px 49px;
+      text-decoration:none; 
+      line-height:15px;
+      float:left;
+    }
+    ul{
+      float:right;
+      li{
+        margin:11px 15px 10px 0px;
+        display:inline-block;
+        a{
+          color:#f2f2f2;
+          font-weight:bold;
+          cursor:pointer;
+          text-decoration:none;
+          .nav-link{
+            padding-left:2px;
+            &:hover{
+              text-decoration:underline;
+            }
+          }
+       }
+      }
+    }
+}
+/******** form element styling start********/
+form fieldset{
+  border:none;
+  padding:0px;
+}
+.form-field{
+  @include clearfix();
+  .field-attribute{
+    float:left;
+    label{
+        width:13em;
+        float:left;
+        text-align:right;
+        margin:0.5em 0.8em 0em 0em;
+    }
+  }
+  .field-value{
+    float:left;
+     input[type="text"],input[type="password"]{  
+        float:left;
+        width:12.5em;
+    }
+    input[type="number"]{
+        width:8em;
+    }
+    span.value-text-only{
+       display:inline-block;
+       margin:0.5em 0.8em 0em 0em;
+    }
+  }
+}
+.input-prepend{
+  float:left;
+  input{
+      display: inline-block;
+      margin-bottom: 0;
+      vertical-align: middle;
+      float:left;
+      margin:0px !important;
+  }
+  .add-on{
+    @extend input;
+    @include border-radius();  
+    height: 21px;
+    min-width: 17px;
+    padding: 4px 5px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+  }
+
+}
+.input-prepend .add-on:first-child, .input-prepend .btn:first-child {
+  -webkit-border-radius: 4px 0 0 4px;
+  -moz-border-radius: 4px 0 0 4px;
+  border-radius: 4px 0 0 4px;
+}
+.input-prepend .add-on, .input-prepend .btn{
+  margin-right:-1px;
+}
+input[disabled], select[disabled], textarea[disabled], input[readonly], select[readonly], textarea[readonly]{
+  cursor: not-allowed;
+  background-color: #eee;
+  &:focus{
+    cursor: not-allowed;
+    background-color: #eee;
+    outline:none;
+  }
+}
+.input-mini{width:60px;}
+.input-small{width:90px;}
+.input-medium{width:150px;}
+.input-large{width:210px;}
+.input-xlarge{width:270px;}
+.input-xxlarge{width:530px;}
+
+/********* form element styling end***********/
+
+.content-wrapper{
+    background:#fff;
+    @include clearfix();
+    padding:20px 10px 10px 10px;
+}

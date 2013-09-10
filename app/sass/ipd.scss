@@ -1,0 +1,89 @@
+@import "jss-ui-common";
+
+
+.table-filter-wrapper{
+  padding:0px 0px 15px;
+  overflow:hidden;
+  .search-box{
+  	float:left;
+  	position:relative;
+  	input{
+  		padding-right:20px;
+  	}
+  	span.icon-search{
+  		position:absolute;
+  		right:7px;
+  		top:10px;
+  	}
+  }
+  span.select-arrow{
+  	float: left;
+    margin:0em .8em;
+  }
+  ul {
+    float:right;
+    margin-right: 20px;
+    margin-top:10px;
+    li{
+      float:left;
+      margin-right:20px;
+      color:#00463f;
+    }
+  }
+}
+.table{
+      border:1px solid #cecece;
+      @include font-size(1);
+      .row{
+        @include pie-clearfix();
+        border-bottom:1px solid #cecece;
+      }
+      .col{       
+          padding:10px 0px;
+            @include font-size(0.9);
+        }
+        .col1{
+          @include column(2);
+          width:50px;
+          padding-top:8px;
+          padding-bottom:5px;
+        }
+        .col2{
+          @include column(2);
+        } 
+        .col3{
+          @include column(2);
+        }
+        .col4{
+          @include column(3);
+        }
+        .col5{
+          @include column(3);
+        }
+      .table-header{
+        background:#F0F0F0;
+        .col{
+          @include font-size(1);
+          font-weight: bold;  
+        }
+      }
+      .table-body{
+        .row{
+           &:hover{
+             background:#F9F9F9;
+          }
+        }
+      }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+                body { font-size:90%;}
+ }
+ @media only screen and (max-width: 500px) {
+                body { font-size:70%;}
+ }

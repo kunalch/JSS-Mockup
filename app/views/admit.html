@@ -1,19 +1,71 @@
 <header class="reg-header ng-scope" ng-controller="NavigationController" ng-hide="onLoginPage()" style="">
-                        <a class="header-logo" href="#/search">Jan Swasthya Sahyog</a>
-                        <ul>
-                            <li>
-                                <a ng-click="logout()"><i class="icon-off icon-white small"></i><span class="nav-link">Logout</span></a>
-                            </li>
-                        </ul>
-                </header>
+      <a class="header-logo" href="#/search">Jan Swasthya Sahyog</a>
+      <ul>
+          <li>
+              <a ng-click="logout()"><i class="icon-off icon-white small"></i><span class="nav-link">Logout</span></a>
+          </li>
+      </ul>
+</header>
 <div class="content-wrapper">
+	<form>
 	<fieldset>
 		<div class="form-field">
-		  <p class="field-attribute"><label>First Name:</label> <p class="field-value"><input type="text"> </p> 		  <p class="field-attribute"><label>Last Name:</label> <p class="field-value"><input type="text"> </p>
-
-		</div>
-		<div class="form-field">
-			<p class="field-attribute"><label>Father's Name:</label> <p class="field-value"><input type="text"> </p>
+		  <p class="field-attribute"><label>Patient ID:</label> </p> <p class="field-value"><span class="value-text-only">Gan111</span> 
+		</p>
 		</div>
 	 </fieldset>
+	 <fieldset>
+		<div class="form-field">
+		  <p class="field-attribute"><label> Name:</label></p> <p class="field-value"><span class="value-text-only">Ram</span></p>
+		</div>
+	 </fieldset>
+	 <fieldset>
+		<div class="form-field">
+		  <p class="field-attribute"><label> Age:</label></p> <p class="field-value"><span class="value-text-only">28</span> </p>
+		</div>
+	 </fieldset>
+
+<fieldset>
+		<div class="form-field">
+		  <p class="field-attribute"><label> Gender:</label></p> <p class="field-value"><span class="value-text-only">Male</span> </p>
+		</div>
+	 </fieldset>
+	 <fieldset>
+		<div class="form-field">
+		  <p class="field-attribute"><label> Select Ward:</label></p> 
+		  <p class="field-value">
+		  	<span class="select-arrow">
+                <select>
+                	<option>Select Ward</option>
+                    <option>Antepartum Ward</option>
+		            <option>Community Health</option>
+		            <option>Dental</option>
+		            <option> Emergency</option>
+		            <option>Labor and Delivery</option>
+		            <option>NICU</option>
+		            <option> Outpatient Clinic</option>
+		            <option>Pediatrics</option>
+		            <option> Postpartum Ward</option>
+                </select>
+            </span>
+           </p>
+		</div>
+	 </fieldset>
+
+	 <fieldset>
+		<div class="form-field">
+		  <p class="field-attribute"><label> Notes:</label></p> 
+		  <p class="field-value">
+		  		<textarea></textarea>
+           </p>
+		</div>
+	 </fieldset>
+
+	 <fieldset>
+		<div class="form-field">
+		  <p class="field-attribute"><label> Days:</label></p> 
+		  <p class="field-value"><input type="number" /></p>
+		</div>
+	 </fieldset>
+</form>
 </div>
