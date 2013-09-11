@@ -186,8 +186,104 @@ input[disabled]:focus, .input-prepend [disabled].add-on:focus, select[disabled]:
   width: 530px;
 }
 
-/********* form element styling end***********/
+/* line 126, ../sass/_jss-ui-common.scss */
+.span1 {
+  display: inline;
+  float: left;
+  width: 6.25%;
+  margin: 0 1.04167%;
+}
+
 /* line 129, ../sass/_jss-ui-common.scss */
+.span2 {
+  display: inline;
+  float: left;
+  width: 14.58333%;
+  margin: 0 1.04167%;
+}
+
+/* line 132, ../sass/_jss-ui-common.scss */
+.span3 {
+  display: inline;
+  float: left;
+  width: 22.91667%;
+  margin: 0 1.04167%;
+}
+
+/* line 135, ../sass/_jss-ui-common.scss */
+.span4 {
+  display: inline;
+  float: left;
+  width: 31.25%;
+  margin: 0 1.04167%;
+}
+
+/* line 138, ../sass/_jss-ui-common.scss */
+.span5 {
+  display: inline;
+  float: left;
+  width: 39.58333%;
+  margin: 0 1.04167%;
+}
+
+/* line 141, ../sass/_jss-ui-common.scss */
+.span6 {
+  display: inline;
+  float: left;
+  width: 47.91667%;
+  margin: 0 1.04167%;
+}
+
+/* line 144, ../sass/_jss-ui-common.scss */
+.span7 {
+  display: inline;
+  float: left;
+  width: 56.25%;
+  margin: 0 1.04167%;
+}
+
+/* line 147, ../sass/_jss-ui-common.scss */
+.span8 {
+  display: inline;
+  float: left;
+  width: 64.58333%;
+  margin: 0 1.04167%;
+}
+
+/* line 150, ../sass/_jss-ui-common.scss */
+.span9 {
+  display: inline;
+  float: left;
+  width: 72.91667%;
+  margin: 0 1.04167%;
+}
+
+/* line 153, ../sass/_jss-ui-common.scss */
+.span10 {
+  display: inline;
+  float: left;
+  width: 81.25%;
+  margin: 0 1.04167%;
+}
+
+/* line 156, ../sass/_jss-ui-common.scss */
+.span11 {
+  display: inline;
+  float: left;
+  width: 89.58333%;
+  margin: 0 1.04167%;
+}
+
+/* line 159, ../sass/_jss-ui-common.scss */
+.span12 {
+  display: inline;
+  float: left;
+  width: 97.91667%;
+  margin: 0 1.04167%;
+}
+
+/********* form element styling end***********/
+/* line 164, ../sass/_jss-ui-common.scss */
 .content-wrapper {
   background: #fff;
   overflow: hidden;
