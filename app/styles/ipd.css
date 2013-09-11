@@ -28,7 +28,7 @@ header {
 }
 /* line 20, ../sass/_jss-ui-common.scss */
 header .header-logo {
-  background: url('/images/../images/jss_logo.png?1372251511') no-repeat scroll left top transparent;
+  background: url("../images/jss_logo.png") no-repeat scroll left top transparent;
   color: #ffffff;
   display: block;
   font-size: 1.5em;
