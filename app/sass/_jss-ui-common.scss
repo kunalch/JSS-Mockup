@@ -54,6 +54,7 @@ form{
  fieldset{
   border:none;
   padding:0px;
+  width:100%;
 }
 .form-field{
   @include clearfix();
@@ -120,7 +121,7 @@ input[disabled], select[disabled], textarea[disabled], input[readonly], select[r
 }
 .form-button-wrapper{
   margin-top:10px;
-  text-align:center;
+  padding-left:14em;
 }
 }
 .input-mini{@include column(1);}
@@ -129,6 +130,10 @@ input[disabled], select[disabled], textarea[disabled], input[readonly], select[r
 .input-large{@include column(6);}
 .input-xlarge{@include column(8);}
 .input-xxlarge{@include column(10);}
+textarea{
+  width:426.6px;
+  height: 84px;
+}
 .span1{
   @include column(1);
 }

@@ -69,46 +69,47 @@ header ul li a .nav-link:hover {
 form fieldset {
   border: none;
   padding: 0px;
+  width: 100%;
 }
-/* line 58, ../sass/_jss-ui-common.scss */
+/* line 59, ../sass/_jss-ui-common.scss */
 form .form-field {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 60, ../sass/_jss-ui-common.scss */
+/* line 61, ../sass/_jss-ui-common.scss */
 form .form-field .field-attribute {
   float: left;
 }
-/* line 62, ../sass/_jss-ui-common.scss */
+/* line 63, ../sass/_jss-ui-common.scss */
 form .form-field .field-attribute label {
   width: 13em;
   float: left;
   text-align: right;
   margin: 0.5em 0.8em 0em 0em;
 }
-/* line 69, ../sass/_jss-ui-common.scss */
+/* line 70, ../sass/_jss-ui-common.scss */
 form .form-field .field-value {
   float: left;
 }
-/* line 71, ../sass/_jss-ui-common.scss */
+/* line 72, ../sass/_jss-ui-common.scss */
 form .form-field .field-value input[type="text"], form .form-field .field-value .input-prepend [type="text"].add-on, form .input-prepend .form-field .field-value [type="text"].add-on, form .form-field .field-value input[type="password"], form .form-field .field-value .input-prepend [type="password"].add-on, form .input-prepend .form-field .field-value [type="password"].add-on {
   float: left;
   width: 12.5em;
 }
-/* line 75, ../sass/_jss-ui-common.scss */
+/* line 76, ../sass/_jss-ui-common.scss */
 form .form-field .field-value input[type="number"], form .form-field .field-value .input-prepend [type="number"].add-on, form .input-prepend .form-field .field-value [type="number"].add-on {
   width: 8em;
 }
-/* line 78, ../sass/_jss-ui-common.scss */
+/* line 79, ../sass/_jss-ui-common.scss */
 form .form-field .field-value span.value-text-only {
   display: inline-block;
   margin: 0.5em 0.8em 0em 0em;
 }
-/* line 84, ../sass/_jss-ui-common.scss */
+/* line 85, ../sass/_jss-ui-common.scss */
 form .input-prepend {
   float: left;
 }
-/* line 86, ../sass/_jss-ui-common.scss */
+/* line 87, ../sass/_jss-ui-common.scss */
 form .input-prepend input, form .input-prepend .add-on {
   display: inline-block;
   margin-bottom: 0;
@@ -116,7 +117,7 @@ form .input-prepend input, form .input-prepend .add-on {
   float: left;
   margin: 0px !important;
 }
-/* line 93, ../sass/_jss-ui-common.scss */
+/* line 94, ../sass/_jss-ui-common.scss */
 form .input-prepend .add-on {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -129,34 +130,34 @@ form .input-prepend .add-on {
   background-color: #eee;
   border: 1px solid #ccc;
 }
-/* line 104, ../sass/_jss-ui-common.scss */
+/* line 105, ../sass/_jss-ui-common.scss */
 form .input-prepend .add-on:first-child, form .input-prepend .btn:first-child {
   -webkit-border-radius: 4px 0 0 4px;
   -moz-border-radius: 4px 0 0 4px;
   border-radius: 4px 0 0 4px;
 }
-/* line 109, ../sass/_jss-ui-common.scss */
+/* line 110, ../sass/_jss-ui-common.scss */
 form .input-prepend .add-on, form .input-prepend .btn {
   margin-right: -1px;
 }
-/* line 112, ../sass/_jss-ui-common.scss */
+/* line 113, ../sass/_jss-ui-common.scss */
 form input[disabled], form .input-prepend [disabled].add-on, form select[disabled], form textarea[disabled], form input[readonly], form .input-prepend [readonly].add-on, form select[readonly], form textarea[readonly] {
   cursor: not-allowed;
   background-color: #eee;
 }
-/* line 115, ../sass/_jss-ui-common.scss */
+/* line 116, ../sass/_jss-ui-common.scss */
 form input[disabled]:focus, form .input-prepend [disabled].add-on:focus, form select[disabled]:focus, form textarea[disabled]:focus, form input[readonly]:focus, form .input-prepend [readonly].add-on:focus, form select[readonly]:focus, form textarea[readonly]:focus {
   cursor: not-allowed;
   background-color: #eee;
   outline: none;
 }
-/* line 121, ../sass/_jss-ui-common.scss */
+/* line 122, ../sass/_jss-ui-common.scss */
 form .form-button-wrapper {
   margin-top: 10px;
-  text-align: center;
+  padding-left: 14em;
 }
 
-/* line 126, ../sass/_jss-ui-common.scss */
+/* line 127, ../sass/_jss-ui-common.scss */
 .input-mini {
   display: inline;
   float: left;
@@ -164,7 +165,7 @@ form .form-button-wrapper {
   margin: 0 1.04167%;
 }
 
-/* line 127, ../sass/_jss-ui-common.scss */
+/* line 128, ../sass/_jss-ui-common.scss */
 .input-small {
   display: inline;
   float: left;
@@ -172,7 +173,7 @@ form .form-button-wrapper {
   margin: 0 1.04167%;
 }
 
-/* line 128, ../sass/_jss-ui-common.scss */
+/* line 129, ../sass/_jss-ui-common.scss */
 .input-medium {
   display: inline;
   float: left;
@@ -180,7 +181,7 @@ form .form-button-wrapper {
   margin: 0 1.04167%;
 }
 
-/* line 129, ../sass/_jss-ui-common.scss */
+/* line 130, ../sass/_jss-ui-common.scss */
 .input-large {
   display: inline;
   float: left;
@@ -188,7 +189,7 @@ form .form-button-wrapper {
   margin: 0 1.04167%;
 }
 
-/* line 130, ../sass/_jss-ui-common.scss */
+/* line 131, ../sass/_jss-ui-common.scss */
 .input-xlarge {
   display: inline;
   float: left;
@@ -196,7 +197,7 @@ form .form-button-wrapper {
   margin: 0 1.04167%;
 }
 
-/* line 131, ../sass/_jss-ui-common.scss */
+/* line 132, ../sass/_jss-ui-common.scss */
 .input-xxlarge {
   display: inline;
   float: left;
@@ -204,7 +205,13 @@ form .form-button-wrapper {
   margin: 0 1.04167%;
 }
 
-/* line 132, ../sass/_jss-ui-common.scss */
+/* line 133, ../sass/_jss-ui-common.scss */
+textarea {
+  width: 426.6px;
+  height: 84px;
+}
+
+/* line 137, ../sass/_jss-ui-common.scss */
 .span1 {
   display: inline;
   float: left;
@@ -212,7 +219,7 @@ form .form-button-wrapper {
   margin: 0 1.04167%;
 }
 
-/* line 135, ../sass/_jss-ui-common.scss */
+/* line 140, ../sass/_jss-ui-common.scss */
 .span2 {
   display: inline;
   float: left;
@@ -220,7 +227,7 @@ form .form-button-wrapper {
   margin: 0 1.04167%;
 }
 
-/* line 138, ../sass/_jss-ui-common.scss */
+/* line 143, ../sass/_jss-ui-common.scss */
 .span3 {
   display: inline;
   float: left;
@@ -228,7 +235,7 @@ form .form-button-wrapper {
   margin: 0 1.04167%;
 }
 
-/* line 141, ../sass/_jss-ui-common.scss */
+/* line 146, ../sass/_jss-ui-common.scss */
 .span4 {
   display: inline;
   float: left;
@@ -236,7 +243,7 @@ form .form-button-wrapper {
   margin: 0 1.04167%;
 }
 
-/* line 144, ../sass/_jss-ui-common.scss */
+/* line 149, ../sass/_jss-ui-common.scss */
 .span5 {
   display: inline;
   float: left;
@@ -244,7 +251,7 @@ form .form-button-wrapper {
   margin: 0 1.04167%;
 }
 
-/* line 147, ../sass/_jss-ui-common.scss */
+/* line 152, ../sass/_jss-ui-common.scss */
 .span6 {
   display: inline;
   float: left;
@@ -252,7 +259,7 @@ form .form-button-wrapper {
   margin: 0 1.04167%;
 }
 
-/* line 150, ../sass/_jss-ui-common.scss */
+/* line 155, ../sass/_jss-ui-common.scss */
 .span7 {
   display: inline;
   float: left;
@@ -260,7 +267,7 @@ form .form-button-wrapper {
   margin: 0 1.04167%;
 }
 
-/* line 153, ../sass/_jss-ui-common.scss */
+/* line 158, ../sass/_jss-ui-common.scss */
 .span8 {
   display: inline;
   float: left;
@@ -268,7 +275,7 @@ form .form-button-wrapper {
   margin: 0 1.04167%;
 }
 
-/* line 156, ../sass/_jss-ui-common.scss */
+/* line 161, ../sass/_jss-ui-common.scss */
 .span9 {
   display: inline;
   float: left;
@@ -276,7 +283,7 @@ form .form-button-wrapper {
   margin: 0 1.04167%;
 }
 
-/* line 159, ../sass/_jss-ui-common.scss */
+/* line 164, ../sass/_jss-ui-common.scss */
 .span10 {
   display: inline;
   float: left;
@@ -284,7 +291,7 @@ form .form-button-wrapper {
   margin: 0 1.04167%;
 }
 
-/* line 162, ../sass/_jss-ui-common.scss */
+/* line 167, ../sass/_jss-ui-common.scss */
 .span11 {
   display: inline;
   float: left;
@@ -292,7 +299,7 @@ form .form-button-wrapper {
   margin: 0 1.04167%;
 }
 
-/* line 165, ../sass/_jss-ui-common.scss */
+/* line 170, ../sass/_jss-ui-common.scss */
 .span12 {
   display: inline;
   float: left;
@@ -301,7 +308,7 @@ form .form-button-wrapper {
 }
 
 /********* form element styling end***********/
-/* line 170, ../sass/_jss-ui-common.scss */
+/* line 175, ../sass/_jss-ui-common.scss */
 .content-wrapper {
   background: #fff;
   overflow: hidden;
@@ -425,20 +432,54 @@ form .form-button-wrapper {
 
 /* line 78, ../sass/ipd.scss */
 .admit-form {
-  border: 1px solid #f1f1f1;
   padding: 10px;
-  text-align: center;
+}
+
+/* line 81, ../sass/ipd.scss */
+.admit-detail-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+/* line 84, ../sass/ipd.scss */
+.admit-detail-wrapper label {
+  font-size: 14px;
+}
+/* line 87, ../sass/ipd.scss */
+.admit-detail-wrapper p {
+  margin-bottom: 6px;
+}
+/* line 90, ../sass/ipd.scss */
+.admit-detail-wrapper .admit-detail-wrapper-l {
+  float: left;
+  width: 14em;
+  margin-bottom: 15px;
+  margin-left: 1em;
+}
+/* line 95, ../sass/ipd.scss */
+.admit-detail-wrapper .admit-detail-wrapper-l .patient-photo {
+  height: 180px;
+  width: 180px;
+  border: 1px solid #cecece;
+  background: #f1f1f1;
+}
+/* line 102, ../sass/ipd.scss */
+.admit-detail-wrapper .admit-detail-wrapper-r {
+  float: left;
+}
+/* line 104, ../sass/ipd.scss */
+.admit-detail-wrapper .admit-detail-wrapper-r .form-field .field-attribute label {
+  width: 12em;
 }
 
 @media only screen and (max-width: 1200px) {
-  /* line 89, ../sass/ipd.scss */
+  /* line 114, ../sass/ipd.scss */
   body {
     font-size: 90%;
   }
 }
-@media only screen and (max-width: 500px) {
-  /* line 92, ../sass/ipd.scss */
+@media only screen and (max-width: 760px) {
+  /* line 117, ../sass/ipd.scss */
   body {
-    font-size: 70%;
+    width: 760px;
   }
 }

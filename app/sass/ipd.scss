@@ -76,9 +76,34 @@
       }
 }
 .admit-form{
-	border:1px solid #f1f1f1;
 	padding:10px;
-	text-align:center;
+}
+.admit-detail-wrapper{
+  overflow:hidden;
+  width:100%;
+  label{
+    font-size: 14px;
+  }
+  p{
+    margin-bottom: 6px;
+  }
+  .admit-detail-wrapper-l{
+    float:left;
+    width: 14em;
+    margin-bottom: 15px;
+    margin-left:1em;
+    .patient-photo{
+      height:180px;
+      width:180px;
+      border:1px solid #cecece;
+      background:#f1f1f1;
+    }
+  }
+  .admit-detail-wrapper-r{
+    float:left;
+    .form-field .field-attribute label{ width:12em;}
+    
+  }
 }
 
 
@@ -88,6 +113,6 @@
 @media only screen and (max-width: 1200px) {
                 body { font-size:90%;}
  }
- @media only screen and (max-width: 500px) {
-                body { font-size:70%;}
+ @media only screen and (max-width: 760px) {
+  body{width:760px;}
  }
