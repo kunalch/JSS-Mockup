@@ -3,7 +3,7 @@
 angular.module('JSSMockupApp', [])
   .config(function ($routeProvider) {
     $routeProvider
-      .when('/', {templateUrl: 'views/main.html', controller: 'MainCtrl'})
-      .when('/admit', {templateUrl: 'views/admit.html'})
+      .when('/', {templateUrl: 'views/admit.html', controller: 'MainCtrl'})
+      .when('/queue', {templateUrl: 'views/queue.html'})
       .otherwise({redirectTo: '/'});
   });

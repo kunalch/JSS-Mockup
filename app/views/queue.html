@@ -1,0 +1,82 @@
+<header class="reg-header ng-scope" ng-controller="NavigationController" ng-hide="onLoginPage()" style="">
+                        <a class="header-logo" href="#/search">Jan Swasthya Sahyog</a>
+                        <ul>
+                            <li>
+                                <a ng-click="logout()"><i class="icon-off icon-white small"></i><span class="nav-link">Logout</span></a>
+                            </li>
+                        </ul>
+                </header>
+<div class="content-wrapper">
+	<form>
+	<div class="table-filter-wrapper">
+		<div class="search-box"><input type="text" placeholder="Name, Id, Status..."><span class="icon-search small"></span></div>
+		<span class="select-arrow">
+                <select>
+                	<option>Select Ward</option>
+                    <option>Antepartum Ward</option>
+		            <option>Community Health</option>
+		            <option>Dental</option>
+		            <option> Emergency</option>
+		            <option>Labor and Delivery</option>
+		            <option>NICU</option>
+		            <option> Outpatient Clinic</option>
+		            <option>Pediatrics</option>
+		            <option> Postpartum Ward</option>
+                </select>
+            </span>
+    	<ul class="">
+    		<li><span><small>Total Patient</small>: 40</span></li>
+    		<li><span><small>In Queue</small>: 10</span></li>
+    	</ul>
+    	
+    </div>
+    </form>
+
+	    <div class="table">
+		    <div class="row table-header">
+		    	<div class="col col1">&nbsp;</div>
+		        <div class="col col2">Name</div>
+		        <div class="col col3">Patient ID</div>
+		        <div class="col col4">First Admitted</div>
+		        <div class="col col5">Current Ward</div>
+		    </div>
+		    <div class="table-body">	    
+			    <div class="row">
+			    	<div class="col col1"><img src="#" width="40" height="40"/></div>
+			    	<div class="col col2" ><a href="#">Marie Jean</a></div>
+			        <div class="col col3">Y2C2E9</div>
+			        <div class="col col4">Pediatrics<br><small>40 Aug 2013 02:39 PM</small> </div>
+			        <div class="col col5">Pediatrics<br> <small>40 Aug 2013 02:39 PM</small></div>
+			    </div>
+			    
+			    <div class="row">
+			    	<div class="col col1"><img src="#" width="40" height="40"/></div>
+			    	<div class="col col2"><a href="">Smith Adam </a></div>
+			    	<div class="col col3">Y2AJKG</div>
+			        <div class="col col4">NICU<br><small>40 Aug 2013 02:39 PM</small> </div>
+			        <div class="col col5">Pediatrics<br><small>40 Aug 2013 02:40 PM</small></div>
+			    </div>
+			    <div class="row">
+			    	<div class="col col1"><img src="#" width="40" height="40"/></div>	        
+			    	<div class="col col2"><a href="">Smith Adam </a></div>
+					<div class="col col3">Y2AJKG</div>
+			        <div class="col col4"><a href="#/admit">In Queue</a> </div>
+			        <div class="col col5">NA</div>
+			    </div>
+			    <div class="row">
+			    	<div class="col col1"><img src="#" width="40" height="40"/></div>
+			    	<div class="col col2"><a href="">Smith Adam </a></div>
+			    	<div class="col col3">Y2AJKG</div>
+			        <div class="col col4"><a href="#/admit">In Queue</a></div>
+			        <div class="col col5">NA</div>
+			    </div>
+			    <div class="row">
+			    	<div class="col col1"><img src="#" width="40" height="40"/></div>
+			   		<div class="col col2"><a href="">Smith Adam </a></div>
+			    	<div class="col col3">Y2AJKG</div>
+			        <div class="col col4">Surgical Ward <br> <small>   06 Aug 2013 05:10 PM   </small> </div>
+			        <div class="col col5">Pediatrics<br><small>40 Aug 2013 02:40 PM</small></div>
+			    </div>
+		    </div>
+		</div>	
+</div>
