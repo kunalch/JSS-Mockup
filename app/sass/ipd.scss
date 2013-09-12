@@ -86,6 +86,8 @@
   }
   p{
     margin-bottom: 6px;
+    font-size: 0.9em;
+    color:#585656;
   }
   .admit-detail-wrapper-l{
     float:left;
@@ -101,7 +103,7 @@
   }
   .admit-detail-wrapper-r{
     float:left;
-    .form-field .field-attribute label{ width:12em;}
+    .form-field .field-attribute label{ width:13em; text-align:left;}
     
   }
 }

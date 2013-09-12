@@ -447,38 +447,41 @@ textarea {
 /* line 87, ../sass/ipd.scss */
 .admit-detail-wrapper p {
   margin-bottom: 6px;
+  font-size: 0.9em;
+  color: #585656;
 }
-/* line 90, ../sass/ipd.scss */
+/* line 92, ../sass/ipd.scss */
 .admit-detail-wrapper .admit-detail-wrapper-l {
   float: left;
   width: 14em;
   margin-bottom: 15px;
   margin-left: 1em;
 }
-/* line 95, ../sass/ipd.scss */
+/* line 97, ../sass/ipd.scss */
 .admit-detail-wrapper .admit-detail-wrapper-l .patient-photo {
   height: 180px;
   width: 180px;
   border: 1px solid #cecece;
   background: #f1f1f1;
 }
-/* line 102, ../sass/ipd.scss */
+/* line 104, ../sass/ipd.scss */
 .admit-detail-wrapper .admit-detail-wrapper-r {
   float: left;
 }
-/* line 104, ../sass/ipd.scss */
+/* line 106, ../sass/ipd.scss */
 .admit-detail-wrapper .admit-detail-wrapper-r .form-field .field-attribute label {
-  width: 12em;
+  width: 13em;
+  text-align: left;
 }
 
 @media only screen and (max-width: 1200px) {
-  /* line 114, ../sass/ipd.scss */
+  /* line 116, ../sass/ipd.scss */
   body {
     font-size: 90%;
   }
 }
 @media only screen and (max-width: 760px) {
-  /* line 117, ../sass/ipd.scss */
+  /* line 119, ../sass/ipd.scss */
   body {
     width: 760px;
   }
