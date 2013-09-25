@@ -1,6 +1,6 @@
 @import "jss-ui-common";
 
-
+/* patient queue   css  start **/
 .table-filter-wrapper{
   padding:0px 0px 15px;
   overflow:hidden;
@@ -75,6 +75,8 @@
         }
       }
 }
+/* patient queue   css  start end **/
+/* admit patient   css  start **/
 .admit-form{
 	padding:10px;
 }
@@ -107,9 +109,38 @@
     
   }
 }
+/* admit patient   css  end **/
+/* bed management css start*/
 
-
-
+.bed-assignment{
+  width:960px;
+  border:1px solid #cecece;
+  margin:0px auto;
+  min-height:400px;
+  .row{
+      margin-bottom:30px;
+      padding:2px;
+      height:70px;
+      overflow:hidden;
+      ul{
+          overflow:hidden;
+          .col{
+              
+              float:left;
+              width:50px;
+              height:50px;
+              margin:10px;
+              &.occupied{
+                background: url("../images/bed.png") no-repeat center center #cecece;
+              }
+              &.available{
+                background:url("../images/bed-available.png") no-repeat center center #94E594;
+              }
+          }
+      }
+    }
+  }
+  
 
 
 @media only screen and (max-width: 1200px) {

@@ -105,11 +105,17 @@ form .form-field .field-value span.value-text-only {
   display: inline-block;
   margin: 0.5em 0.8em 0em 0em;
 }
-/* line 85, ../sass/_jss-ui-common.scss */
+/* line 86, ../sass/_jss-ui-common.scss */
+form .form-field-inline p {
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+/* line 92, ../sass/_jss-ui-common.scss */
 form .input-prepend {
   float: left;
 }
-/* line 87, ../sass/_jss-ui-common.scss */
+/* line 94, ../sass/_jss-ui-common.scss */
 form .input-prepend input, form .input-prepend .add-on {
   display: inline-block;
   margin-bottom: 0;
@@ -117,7 +123,7 @@ form .input-prepend input, form .input-prepend .add-on {
   float: left;
   margin: 0px !important;
 }
-/* line 94, ../sass/_jss-ui-common.scss */
+/* line 101, ../sass/_jss-ui-common.scss */
 form .input-prepend .add-on {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -130,34 +136,34 @@ form .input-prepend .add-on {
   background-color: #eee;
   border: 1px solid #ccc;
 }
-/* line 105, ../sass/_jss-ui-common.scss */
+/* line 112, ../sass/_jss-ui-common.scss */
 form .input-prepend .add-on:first-child, form .input-prepend .btn:first-child {
   -webkit-border-radius: 4px 0 0 4px;
   -moz-border-radius: 4px 0 0 4px;
   border-radius: 4px 0 0 4px;
 }
-/* line 110, ../sass/_jss-ui-common.scss */
+/* line 117, ../sass/_jss-ui-common.scss */
 form .input-prepend .add-on, form .input-prepend .btn {
   margin-right: -1px;
 }
-/* line 113, ../sass/_jss-ui-common.scss */
+/* line 120, ../sass/_jss-ui-common.scss */
 form input[disabled], form .input-prepend [disabled].add-on, form select[disabled], form textarea[disabled], form input[readonly], form .input-prepend [readonly].add-on, form select[readonly], form textarea[readonly] {
   cursor: not-allowed;
   background-color: #eee;
 }
-/* line 116, ../sass/_jss-ui-common.scss */
+/* line 123, ../sass/_jss-ui-common.scss */
 form input[disabled]:focus, form .input-prepend [disabled].add-on:focus, form select[disabled]:focus, form textarea[disabled]:focus, form input[readonly]:focus, form .input-prepend [readonly].add-on:focus, form select[readonly]:focus, form textarea[readonly]:focus {
   cursor: not-allowed;
   background-color: #eee;
   outline: none;
 }
-/* line 122, ../sass/_jss-ui-common.scss */
+/* line 129, ../sass/_jss-ui-common.scss */
 form .form-button-wrapper {
   margin-top: 10px;
   padding-left: 14em;
 }
 
-/* line 127, ../sass/_jss-ui-common.scss */
+/* line 134, ../sass/_jss-ui-common.scss */
 .input-mini {
   display: inline;
   float: left;
@@ -165,7 +171,7 @@ form .form-button-wrapper {
   margin: 0 1.04167%;
 }
 
-/* line 128, ../sass/_jss-ui-common.scss */
+/* line 135, ../sass/_jss-ui-common.scss */
 .input-small {
   display: inline;
   float: left;
@@ -173,7 +179,7 @@ form .form-button-wrapper {
   margin: 0 1.04167%;
 }
 
-/* line 129, ../sass/_jss-ui-common.scss */
+/* line 136, ../sass/_jss-ui-common.scss */
 .input-medium {
   display: inline;
   float: left;
@@ -181,7 +187,7 @@ form .form-button-wrapper {
   margin: 0 1.04167%;
 }
 
-/* line 130, ../sass/_jss-ui-common.scss */
+/* line 137, ../sass/_jss-ui-common.scss */
 .input-large {
   display: inline;
   float: left;
@@ -189,7 +195,7 @@ form .form-button-wrapper {
   margin: 0 1.04167%;
 }
 
-/* line 131, ../sass/_jss-ui-common.scss */
+/* line 138, ../sass/_jss-ui-common.scss */
 .input-xlarge {
   display: inline;
   float: left;
@@ -197,7 +203,7 @@ form .form-button-wrapper {
   margin: 0 1.04167%;
 }
 
-/* line 132, ../sass/_jss-ui-common.scss */
+/* line 139, ../sass/_jss-ui-common.scss */
 .input-xxlarge {
   display: inline;
   float: left;
@@ -205,13 +211,13 @@ form .form-button-wrapper {
   margin: 0 1.04167%;
 }
 
-/* line 133, ../sass/_jss-ui-common.scss */
+/* line 140, ../sass/_jss-ui-common.scss */
 textarea {
   width: 426.6px;
   height: 84px;
 }
 
-/* line 137, ../sass/_jss-ui-common.scss */
+/* line 144, ../sass/_jss-ui-common.scss */
 .span1 {
   display: inline;
   float: left;
@@ -219,7 +225,7 @@ textarea {
   margin: 0 1.04167%;
 }
 
-/* line 140, ../sass/_jss-ui-common.scss */
+/* line 147, ../sass/_jss-ui-common.scss */
 .span2 {
   display: inline;
   float: left;
@@ -227,7 +233,7 @@ textarea {
   margin: 0 1.04167%;
 }
 
-/* line 143, ../sass/_jss-ui-common.scss */
+/* line 150, ../sass/_jss-ui-common.scss */
 .span3 {
   display: inline;
   float: left;
@@ -235,7 +241,7 @@ textarea {
   margin: 0 1.04167%;
 }
 
-/* line 146, ../sass/_jss-ui-common.scss */
+/* line 153, ../sass/_jss-ui-common.scss */
 .span4 {
   display: inline;
   float: left;
@@ -243,7 +249,7 @@ textarea {
   margin: 0 1.04167%;
 }
 
-/* line 149, ../sass/_jss-ui-common.scss */
+/* line 156, ../sass/_jss-ui-common.scss */
 .span5 {
   display: inline;
   float: left;
@@ -251,7 +257,7 @@ textarea {
   margin: 0 1.04167%;
 }
 
-/* line 152, ../sass/_jss-ui-common.scss */
+/* line 159, ../sass/_jss-ui-common.scss */
 .span6 {
   display: inline;
   float: left;
@@ -259,7 +265,7 @@ textarea {
   margin: 0 1.04167%;
 }
 
-/* line 155, ../sass/_jss-ui-common.scss */
+/* line 162, ../sass/_jss-ui-common.scss */
 .span7 {
   display: inline;
   float: left;
@@ -267,7 +273,7 @@ textarea {
   margin: 0 1.04167%;
 }
 
-/* line 158, ../sass/_jss-ui-common.scss */
+/* line 165, ../sass/_jss-ui-common.scss */
 .span8 {
   display: inline;
   float: left;
@@ -275,7 +281,7 @@ textarea {
   margin: 0 1.04167%;
 }
 
-/* line 161, ../sass/_jss-ui-common.scss */
+/* line 168, ../sass/_jss-ui-common.scss */
 .span9 {
   display: inline;
   float: left;
@@ -283,7 +289,7 @@ textarea {
   margin: 0 1.04167%;
 }
 
-/* line 164, ../sass/_jss-ui-common.scss */
+/* line 171, ../sass/_jss-ui-common.scss */
 .span10 {
   display: inline;
   float: left;
@@ -291,7 +297,7 @@ textarea {
   margin: 0 1.04167%;
 }
 
-/* line 167, ../sass/_jss-ui-common.scss */
+/* line 174, ../sass/_jss-ui-common.scss */
 .span11 {
   display: inline;
   float: left;
@@ -299,7 +305,7 @@ textarea {
   margin: 0 1.04167%;
 }
 
-/* line 170, ../sass/_jss-ui-common.scss */
+/* line 177, ../sass/_jss-ui-common.scss */
 .span12 {
   display: inline;
   float: left;
@@ -307,8 +313,13 @@ textarea {
   margin: 0 1.04167%;
 }
 
+/* line 180, ../sass/_jss-ui-common.scss */
+form .select-arrow:after, .form .select-arrow:after {
+  height: auto;
+}
+
 /********* form element styling end***********/
-/* line 175, ../sass/_jss-ui-common.scss */
+/* line 183, ../sass/_jss-ui-common.scss */
 .content-wrapper {
   background: #fff;
   overflow: hidden;
@@ -316,6 +327,69 @@ textarea {
   padding: 20px 10px 10px 10px;
 }
 
+/* line 188, ../sass/_jss-ui-common.scss */
+.menu-drag-info-wrapper {
+  padding: 5px 0px 0px 0px;
+  background: #cecece;
+  border-bottom: 1px solid #cecece;
+  position: relative;
+}
+/* line 193, ../sass/_jss-ui-common.scss */
+.menu-drag-info-wrapper .menu-drag-info {
+  background: #f1f1f1;
+  padding: 5px;
+}
+/* line 197, ../sass/_jss-ui-common.scss */
+.menu-drag-info-wrapper .menu-drag {
+  width: 60px;
+  height: 22px;
+  margin: 0px auto;
+  background: #00463f;
+  text-indent: -9999px;
+  display: block;
+  position: absolute;
+  bottom: -23px;
+  right: 0px;
+  left: 0px;
+  -moz-border-radius-bottomleft: 30px;
+  -webkit-border-bottom-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  -moz-border-radius-bottomright: 30px;
+  -webkit-border-bottom-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f1f1f1), color-stop(100%, #cecece));
+  background-image: -webkit-linear-gradient(#f1f1f1, #cecece);
+  background-image: -moz-linear-gradient(#f1f1f1, #cecece);
+  background-image: -o-linear-gradient(#f1f1f1, #cecece);
+  background-image: linear-gradient(#f1f1f1, #cecece);
+  border: 1px solid #cecece;
+  border-top: none;
+}
+/* line 212, ../sass/_jss-ui-common.scss */
+.menu-drag-info-wrapper .menu-drag span {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid black;
+}
+/* line 220, ../sass/_jss-ui-common.scss */
+.menu-drag-info-wrapper .menu-drag-close {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cecece), color-stop(100%, #f1f1f1));
+  background-image: -webkit-linear-gradient(#cecece, #f1f1f1);
+  background-image: -moz-linear-gradient(#cecece, #f1f1f1);
+  background-image: -o-linear-gradient(#cecece, #f1f1f1);
+  background-image: linear-gradient(#cecece, #f1f1f1);
+}
+
+/* line 224, ../sass/_jss-ui-common.scss */
+.patient-details-mini {
+  height: 100px;
+  width: 100px;
+  border: 1px solid #cecece;
+}
+
+/* patient queue   css  start **/
 /* line 4, ../sass/ipd.scss */
 .table-filter-wrapper {
   padding: 0px 0px 15px;
@@ -430,58 +504,96 @@ textarea {
   background: #F9F9F9;
 }
 
-/* line 78, ../sass/ipd.scss */
+/* patient queue   css  start end **/
+/* admit patient   css  start **/
+/* line 80, ../sass/ipd.scss */
 .admit-form {
   padding: 10px;
 }
 
-/* line 81, ../sass/ipd.scss */
+/* line 83, ../sass/ipd.scss */
 .admit-detail-wrapper {
   overflow: hidden;
   width: 100%;
 }
-/* line 84, ../sass/ipd.scss */
+/* line 86, ../sass/ipd.scss */
 .admit-detail-wrapper label {
   font-size: 14px;
 }
-/* line 87, ../sass/ipd.scss */
+/* line 89, ../sass/ipd.scss */
 .admit-detail-wrapper p {
   margin-bottom: 6px;
   font-size: 0.9em;
   color: #585656;
 }
-/* line 92, ../sass/ipd.scss */
+/* line 94, ../sass/ipd.scss */
 .admit-detail-wrapper .admit-detail-wrapper-l {
   float: left;
   width: 14em;
   margin-bottom: 15px;
   margin-left: 1em;
 }
-/* line 97, ../sass/ipd.scss */
+/* line 99, ../sass/ipd.scss */
 .admit-detail-wrapper .admit-detail-wrapper-l .patient-photo {
   height: 180px;
   width: 180px;
   border: 1px solid #cecece;
   background: #f1f1f1;
 }
-/* line 104, ../sass/ipd.scss */
+/* line 106, ../sass/ipd.scss */
 .admit-detail-wrapper .admit-detail-wrapper-r {
   float: left;
 }
-/* line 106, ../sass/ipd.scss */
+/* line 108, ../sass/ipd.scss */
 .admit-detail-wrapper .admit-detail-wrapper-r .form-field .field-attribute label {
   width: 13em;
   text-align: left;
 }
 
+/* admit patient   css  end **/
+/* bed management css start*/
+/* line 115, ../sass/ipd.scss */
+.bed-assignment {
+  width: 960px;
+  border: 1px solid #cecece;
+  margin: 0px auto;
+  min-height: 400px;
+}
+/* line 120, ../sass/ipd.scss */
+.bed-assignment .row {
+  margin-bottom: 30px;
+  padding: 2px;
+  height: 70px;
+  overflow: hidden;
+}
+/* line 125, ../sass/ipd.scss */
+.bed-assignment .row ul {
+  overflow: hidden;
+}
+/* line 127, ../sass/ipd.scss */
+.bed-assignment .row ul .col {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+/* line 133, ../sass/ipd.scss */
+.bed-assignment .row ul .col.occupied {
+  background: url("../images/bed.png") no-repeat center center #cecece;
+}
+/* line 136, ../sass/ipd.scss */
+.bed-assignment .row ul .col.available {
+  background: url("../images/bed-available.png") no-repeat center center #94e594;
+}
+
 @media only screen and (max-width: 1200px) {
-  /* line 116, ../sass/ipd.scss */
+  /* line 147, ../sass/ipd.scss */
   body {
     font-size: 90%;
   }
 }
 @media only screen and (max-width: 760px) {
-  /* line 119, ../sass/ipd.scss */
+  /* line 150, ../sass/ipd.scss */
   body {
     width: 760px;
   }

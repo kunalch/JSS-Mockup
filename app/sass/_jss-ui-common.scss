@@ -82,6 +82,13 @@ form{
     }
   }
 }
+.form-field-inline{
+  p{
+    float:left;
+    margin-left:20px;
+    margin-top:10px;
+  }
+}
 .input-prepend{
   float:left;
   input{
@@ -170,10 +177,52 @@ textarea{
 .span12{
   @include column(12);
 }
+form .select-arrow:after, .form .select-arrow:after{height:auto;}
 /********* form element styling end***********/
 
 .content-wrapper{
     background:#fff;
     @include clearfix();
     padding:20px 10px 10px 10px;
+}
+.menu-drag-info-wrapper{
+    padding:5px 0px 0px 0px;
+    background:#cecece;
+    border-bottom:1px solid #cecece;
+    position: relative;
+    .menu-drag-info{
+      background:#f1f1f1;
+      padding:5px;
+    }
+    .menu-drag{ 
+      width:60px;
+      height:22px;
+      margin:0px auto;
+      background: #00463f;
+      text-indent:-9999px;
+      display:block;
+      position:absolute;
+      bottom:-23px;
+      right:0px;
+      left:0px;
+      @include border-bottom-radius(30px);
+      @include background-image(linear-gradient(#f1f1f1,#cecece));
+      border:1px solid #cecece;
+      border-top :none;
+      span{
+          width: 0; 
+          height: 0; 
+          border-left: 5px solid transparent;
+          border-right: 5px solid transparent;
+          border-bottom: 5px solid black;
+      }
+    }
+    .menu-drag-close{
+      @include background-image(linear-gradient(#cecece,#f1f1f1));      
+    }
+}
+.patient-details-mini{
+  height:100px;
+  width:100px;
+  border:1px solid #cecece;
 }
