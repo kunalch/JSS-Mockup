@@ -1,4 +1,6 @@
 @import "jss-ui-common";
+@import "compass";
+
 
 /* patient queue   css  start **/
 .table-filter-wrapper{
@@ -116,11 +118,9 @@
   width:960px;
   border:1px solid #cecece;
   margin:0px auto;
-  min-height:400px;
+  min-height:200px;
+  padding-bottom:20px;
   .row{
-      margin-bottom:30px;
-      padding:2px;
-      height:70px;
       overflow:hidden;
       ul{
           overflow:hidden;
@@ -129,12 +129,17 @@
               float:left;
               width:50px;
               height:50px;
-              margin:10px;
+              margin:18px;
               &.occupied{
                 background: url("../images/bed.png") no-repeat center center #cecece;
               }
               &.available{
                 background:url("../images/bed-available.png") no-repeat center center #94E594;
+              }
+              &.path{
+                background:beige;
+                margin:0px;
+                padding:18px;
               }
           }
       }

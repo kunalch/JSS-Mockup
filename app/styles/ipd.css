@@ -390,51 +390,51 @@ form .select-arrow:after, .form .select-arrow:after {
 }
 
 /* patient queue   css  start **/
-/* line 4, ../sass/ipd.scss */
+/* line 6, ../sass/ipd.scss */
 .table-filter-wrapper {
   padding: 0px 0px 15px;
   overflow: hidden;
 }
-/* line 7, ../sass/ipd.scss */
+/* line 9, ../sass/ipd.scss */
 .table-filter-wrapper .search-box {
   float: left;
   position: relative;
 }
-/* line 10, ../sass/ipd.scss */
+/* line 12, ../sass/ipd.scss */
 .table-filter-wrapper .search-box input, .table-filter-wrapper .search-box form .input-prepend .add-on, form .input-prepend .table-filter-wrapper .search-box .add-on {
   padding-right: 20px;
 }
-/* line 13, ../sass/ipd.scss */
+/* line 15, ../sass/ipd.scss */
 .table-filter-wrapper .search-box span.icon-search {
   position: absolute;
   right: 7px;
   top: 10px;
 }
-/* line 19, ../sass/ipd.scss */
+/* line 21, ../sass/ipd.scss */
 .table-filter-wrapper span.select-arrow {
   float: left;
   margin: 0em .8em;
 }
-/* line 23, ../sass/ipd.scss */
+/* line 25, ../sass/ipd.scss */
 .table-filter-wrapper ul {
   float: right;
   margin-right: 20px;
   margin-top: 10px;
 }
-/* line 27, ../sass/ipd.scss */
+/* line 29, ../sass/ipd.scss */
 .table-filter-wrapper ul li {
   float: left;
   margin-right: 20px;
   color: #00463f;
 }
 
-/* line 34, ../sass/ipd.scss */
+/* line 36, ../sass/ipd.scss */
 .table {
   border: 1px solid #cecece;
   font-size: 16px;
   font-size: 1rem;
 }
-/* line 37, ../sass/ipd.scss */
+/* line 39, ../sass/ipd.scss */
 .table .row {
   *zoom: 1;
   border-bottom: 1px solid #cecece;
@@ -445,13 +445,13 @@ form .select-arrow:after, .form .select-arrow:after {
   display: table;
   clear: both;
 }
-/* line 41, ../sass/ipd.scss */
+/* line 43, ../sass/ipd.scss */
 .table .col {
   padding: 10px 0px;
   font-size: 14.4px;
   font-size: 0.9rem;
 }
-/* line 45, ../sass/ipd.scss */
+/* line 47, ../sass/ipd.scss */
 .table .col1 {
   display: inline;
   float: left;
@@ -461,90 +461,90 @@ form .select-arrow:after, .form .select-arrow:after {
   padding-top: 8px;
   padding-bottom: 5px;
 }
-/* line 51, ../sass/ipd.scss */
+/* line 53, ../sass/ipd.scss */
 .table .col2 {
   display: inline;
   float: left;
   width: 14.58333%;
   margin: 0 1.04167%;
 }
-/* line 54, ../sass/ipd.scss */
+/* line 56, ../sass/ipd.scss */
 .table .col3 {
   display: inline;
   float: left;
   width: 14.58333%;
   margin: 0 1.04167%;
 }
-/* line 57, ../sass/ipd.scss */
+/* line 59, ../sass/ipd.scss */
 .table .col4 {
   display: inline;
   float: left;
   width: 22.91667%;
   margin: 0 1.04167%;
 }
-/* line 60, ../sass/ipd.scss */
+/* line 62, ../sass/ipd.scss */
 .table .col5 {
   display: inline;
   float: left;
   width: 22.91667%;
   margin: 0 1.04167%;
 }
-/* line 63, ../sass/ipd.scss */
+/* line 65, ../sass/ipd.scss */
 .table .table-header {
   background: #F0F0F0;
 }
-/* line 65, ../sass/ipd.scss */
+/* line 67, ../sass/ipd.scss */
 .table .table-header .col {
   font-size: 16px;
   font-size: 1rem;
   font-weight: bold;
 }
-/* line 72, ../sass/ipd.scss */
+/* line 74, ../sass/ipd.scss */
 .table .table-body .row:hover {
   background: #F9F9F9;
 }
 
 /* patient queue   css  start end **/
 /* admit patient   css  start **/
-/* line 80, ../sass/ipd.scss */
+/* line 82, ../sass/ipd.scss */
 .admit-form {
   padding: 10px;
 }
 
-/* line 83, ../sass/ipd.scss */
+/* line 85, ../sass/ipd.scss */
 .admit-detail-wrapper {
   overflow: hidden;
   width: 100%;
 }
-/* line 86, ../sass/ipd.scss */
+/* line 88, ../sass/ipd.scss */
 .admit-detail-wrapper label {
   font-size: 14px;
 }
-/* line 89, ../sass/ipd.scss */
+/* line 91, ../sass/ipd.scss */
 .admit-detail-wrapper p {
   margin-bottom: 6px;
   font-size: 0.9em;
   color: #585656;
 }
-/* line 94, ../sass/ipd.scss */
+/* line 96, ../sass/ipd.scss */
 .admit-detail-wrapper .admit-detail-wrapper-l {
   float: left;
   width: 14em;
   margin-bottom: 15px;
   margin-left: 1em;
 }
-/* line 99, ../sass/ipd.scss */
+/* line 101, ../sass/ipd.scss */
 .admit-detail-wrapper .admit-detail-wrapper-l .patient-photo {
   height: 180px;
   width: 180px;
   border: 1px solid #cecece;
   background: #f1f1f1;
 }
-/* line 106, ../sass/ipd.scss */
+/* line 108, ../sass/ipd.scss */
 .admit-detail-wrapper .admit-detail-wrapper-r {
   float: left;
 }
-/* line 108, ../sass/ipd.scss */
+/* line 110, ../sass/ipd.scss */
 .admit-detail-wrapper .admit-detail-wrapper-r .form-field .field-attribute label {
   width: 13em;
   text-align: left;
@@ -552,18 +552,16 @@ form .select-arrow:after, .form .select-arrow:after {
 
 /* admit patient   css  end **/
 /* bed management css start*/
-/* line 115, ../sass/ipd.scss */
+/* line 117, ../sass/ipd.scss */
 .bed-assignment {
   width: 960px;
   border: 1px solid #cecece;
   margin: 0px auto;
-  min-height: 400px;
+  min-height: 200px;
+  padding-bottom: 20px;
 }
-/* line 120, ../sass/ipd.scss */
+/* line 123, ../sass/ipd.scss */
 .bed-assignment .row {
-  margin-bottom: 30px;
-  padding: 2px;
-  height: 70px;
   overflow: hidden;
 }
 /* line 125, ../sass/ipd.scss */
@@ -575,7 +573,7 @@ form .select-arrow:after, .form .select-arrow:after {
   float: left;
   width: 50px;
   height: 50px;
-  margin: 10px;
+  margin: 18px;
 }
 /* line 133, ../sass/ipd.scss */
 .bed-assignment .row ul .col.occupied {
@@ -585,15 +583,21 @@ form .select-arrow:after, .form .select-arrow:after {
 .bed-assignment .row ul .col.available {
   background: url("../images/bed-available.png") no-repeat center center #94e594;
 }
+/* line 139, ../sass/ipd.scss */
+.bed-assignment .row ul .col.path {
+  background: beige;
+  margin: 0px;
+  padding: 18px;
+}
 
 @media only screen and (max-width: 1200px) {
-  /* line 147, ../sass/ipd.scss */
+  /* line 152, ../sass/ipd.scss */
   body {
     font-size: 90%;
   }
 }
 @media only screen and (max-width: 760px) {
-  /* line 150, ../sass/ipd.scss */
+  /* line 155, ../sass/ipd.scss */
   body {
     width: 760px;
   }
