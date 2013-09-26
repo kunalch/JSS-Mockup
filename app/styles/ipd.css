@@ -15,7 +15,7 @@ body:after {
 
 /* line 11, ../sass/_jss-ui-common.scss */
 body {
-  max-width: 1280px;
+  max-width: 1024px;
   font-size: 100%;
   line-height: 1.1em;
 }
@@ -555,28 +555,31 @@ form .select-arrow:after, .form .select-arrow:after {
 /* line 116, ../sass/ipd.scss */
 .bed-info {
   padding: 10px;
-  background: #000;
-  border-radius: 10px;
+  background: #f1f1f1;
   display: inline-block;
   position: absolute;
   display: none;
-  opacity: 0.75;
+  border: 2px solid #cecece;
+  opacity: 0.90;
   z-index: 9999;
 }
 /* line 125, ../sass/ipd.scss */
 .bed-info li {
   padding: 1px 5px;
-  color: #fff;
+  color: #000;
   text-align: center;
   font-size: 14px;
 }
 /* line 130, ../sass/ipd.scss */
 .bed-info li:first-child {
-  border-bottom: 1px solid #f1f1f1;
+  border-bottom: 1px solid #000;
   margin-bottom: 2px;
+  font-weight: bold;
+  font-family: arial;
 }
-/* line 134, ../sass/ipd.scss */
+/* line 136, ../sass/ipd.scss */
 .bed-info li a {
+  margin-left: 10px;
   background-color: #00463F;
   padding: 8px 10px;
   margin-top: 5px;
@@ -586,13 +589,13 @@ form .select-arrow:after, .form .select-arrow:after {
   border: #012C28;
   border-radius: 5px;
 }
-/* line 143, ../sass/ipd.scss */
+/* line 146, ../sass/ipd.scss */
 .bed-info li a:hover {
   background-color: #076158;
   text-decoration: none;
 }
 
-/* line 150, ../sass/ipd.scss */
+/* line 153, ../sass/ipd.scss */
 .bed-assignment {
   position: relative;
   width: 960px;
@@ -601,42 +604,42 @@ form .select-arrow:after, .form .select-arrow:after {
   min-height: 200px;
   padding-bottom: 20px;
 }
-/* line 157, ../sass/ipd.scss */
+/* line 160, ../sass/ipd.scss */
 .bed-assignment .row {
   overflow: hidden;
 }
-/* line 159, ../sass/ipd.scss */
+/* line 162, ../sass/ipd.scss */
 .bed-assignment .row ul {
   overflow: hidden;
 }
-/* line 161, ../sass/ipd.scss */
+/* line 164, ../sass/ipd.scss */
 .bed-assignment .row ul .col {
   float: left;
   width: 50px;
   height: 50px;
   margin: 18px;
 }
-/* line 167, ../sass/ipd.scss */
+/* line 170, ../sass/ipd.scss */
 .bed-assignment .row ul .col.occupied {
   background: url("../images/bed.png") no-repeat center center #cecece;
 }
-/* line 169, ../sass/ipd.scss */
+/* line 172, ../sass/ipd.scss */
 .bed-assignment .row ul .col.occupied:hover {
   outline: 5px solid #B4B2B2;
   background-color: #B4B2B2;
   cursor: pointer;
 }
-/* line 175, ../sass/ipd.scss */
+/* line 178, ../sass/ipd.scss */
 .bed-assignment .row ul .col.available {
   background: url("../images/bed-available.png") no-repeat center center #94e594;
 }
-/* line 177, ../sass/ipd.scss */
+/* line 180, ../sass/ipd.scss */
 .bed-assignment .row ul .col.available:hover {
   background-color: #76E676;
   outline: 5px solid #76E676;
   cursor: pointer;
 }
-/* line 182, ../sass/ipd.scss */
+/* line 185, ../sass/ipd.scss */
 .bed-assignment .row ul .col.path {
   background: beige;
   margin: 0px;
@@ -644,13 +647,13 @@ form .select-arrow:after, .form .select-arrow:after {
 }
 
 @media only screen and (max-width: 1200px) {
-  /* line 196, ../sass/ipd.scss */
+  /* line 199, ../sass/ipd.scss */
   body {
     font-size: 90%;
   }
 }
 @media only screen and (max-width: 760px) {
-  /* line 199, ../sass/ipd.scss */
+  /* line 202, ../sass/ipd.scss */
   body {
     width: 760px;
   }

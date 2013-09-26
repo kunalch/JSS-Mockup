@@ -10,10 +10,8 @@
 <div class="content-wrapper">
 <div class="bed-info">
   <ul>
-      <li>X12</li>
-      <li>Ram Kumar</li>
-      <li>GAN20002</li>
-      <li><a href="">visit profile</a></li>
+      <li>Bed 12 - GAN20002</li>
+      <li><a href="">Ram Kumar</a></li>
   </ul>
 </div>
 <div class="bed-assignment">
@@ -106,8 +104,8 @@
 <script>
 $(function(){
 $(".bed-assignment li.occupied").click(function(){
-    var leftpos=$(this).offset().left+$(this).width();
-    var toppos=$(this).offset().top+25;
+    var leftpos=$(this).offset().left;
+    var toppos=$(this).offset().top+55;
     $(".bed-info").show();
     $(".bed-info").css('left',leftpos);
     $(".bed-info").css('top',toppos);
