@@ -113,8 +113,42 @@
 }
 /* admit patient   css  end **/
 /* bed management css start*/
-
+.bed-info{
+  padding:10px;
+  background:#000;
+  border-radius:10px;
+  display: inline-block;
+  position: absolute;
+  display: none;
+  opacity:0.75;
+  z-index:9999;
+  li{
+    padding:1px 5px;
+    color:#fff;
+    text-align: center;
+    font-size: 14px;
+    &:first-child{
+      border-bottom:1px solid #f1f1f1;
+      margin-bottom: 2px;
+    }
+    a{
+      background-color:#00463F;
+      padding:8px 10px;
+      margin-top:5px;
+      color:#fff;
+      text-transform: capitalize ;
+      display: inline-block;
+      border:#012C28;
+      border-radius:5px;
+      &:hover{
+        background-color:#076158;
+        text-decoration: none;
+      }
+    }
+  }
+}
 .bed-assignment{
+  position: relative;
   width:960px;
   border:1px solid #cecece;
   margin:0px auto;
@@ -132,15 +166,25 @@
               margin:18px;
               &.occupied{
                 background: url("../images/bed.png") no-repeat center center #cecece;
+                &:hover{
+                outline:5px solid #B4B2B2;
+                background-color:#B4B2B2;
+                cursor:pointer;                
+              }
               }
               &.available{
                 background:url("../images/bed-available.png") no-repeat center center #94E594;
+                &:hover{
+                  background-color:#76E676;
+                outline:5px solid #76E676; cursor:pointer;               
+              }
               }
               &.path{
                 background:beige;
                 margin:0px;
                 padding:18px;
               }
+              
           }
       }
     }

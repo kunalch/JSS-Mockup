@@ -552,38 +552,91 @@ form .select-arrow:after, .form .select-arrow:after {
 
 /* admit patient   css  end **/
 /* bed management css start*/
-/* line 117, ../sass/ipd.scss */
+/* line 116, ../sass/ipd.scss */
+.bed-info {
+  padding: 10px;
+  background: #000;
+  border-radius: 10px;
+  display: inline-block;
+  position: absolute;
+  display: none;
+  opacity: 0.75;
+  z-index: 9999;
+}
+/* line 125, ../sass/ipd.scss */
+.bed-info li {
+  padding: 1px 5px;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+}
+/* line 130, ../sass/ipd.scss */
+.bed-info li:first-child {
+  border-bottom: 1px solid #f1f1f1;
+  margin-bottom: 2px;
+}
+/* line 134, ../sass/ipd.scss */
+.bed-info li a {
+  background-color: #00463F;
+  padding: 8px 10px;
+  margin-top: 5px;
+  color: #fff;
+  text-transform: capitalize;
+  display: inline-block;
+  border: #012C28;
+  border-radius: 5px;
+}
+/* line 143, ../sass/ipd.scss */
+.bed-info li a:hover {
+  background-color: #076158;
+  text-decoration: none;
+}
+
+/* line 150, ../sass/ipd.scss */
 .bed-assignment {
+  position: relative;
   width: 960px;
   border: 1px solid #cecece;
   margin: 0px auto;
   min-height: 200px;
   padding-bottom: 20px;
 }
-/* line 123, ../sass/ipd.scss */
+/* line 157, ../sass/ipd.scss */
 .bed-assignment .row {
   overflow: hidden;
 }
-/* line 125, ../sass/ipd.scss */
+/* line 159, ../sass/ipd.scss */
 .bed-assignment .row ul {
   overflow: hidden;
 }
-/* line 127, ../sass/ipd.scss */
+/* line 161, ../sass/ipd.scss */
 .bed-assignment .row ul .col {
   float: left;
   width: 50px;
   height: 50px;
   margin: 18px;
 }
-/* line 133, ../sass/ipd.scss */
+/* line 167, ../sass/ipd.scss */
 .bed-assignment .row ul .col.occupied {
   background: url("../images/bed.png") no-repeat center center #cecece;
 }
-/* line 136, ../sass/ipd.scss */
+/* line 169, ../sass/ipd.scss */
+.bed-assignment .row ul .col.occupied:hover {
+  outline: 5px solid #B4B2B2;
+  background-color: #B4B2B2;
+  cursor: pointer;
+}
+/* line 175, ../sass/ipd.scss */
 .bed-assignment .row ul .col.available {
   background: url("../images/bed-available.png") no-repeat center center #94e594;
 }
-/* line 139, ../sass/ipd.scss */
+/* line 177, ../sass/ipd.scss */
+.bed-assignment .row ul .col.available:hover {
+  background-color: #76E676;
+  outline: 5px solid #76E676;
+  cursor: pointer;
+}
+/* line 182, ../sass/ipd.scss */
 .bed-assignment .row ul .col.path {
   background: beige;
   margin: 0px;
@@ -591,13 +644,13 @@ form .select-arrow:after, .form .select-arrow:after {
 }
 
 @media only screen and (max-width: 1200px) {
-  /* line 152, ../sass/ipd.scss */
+  /* line 196, ../sass/ipd.scss */
   body {
     font-size: 90%;
   }
 }
 @media only screen and (max-width: 760px) {
-  /* line 155, ../sass/ipd.scss */
+  /* line 199, ../sass/ipd.scss */
   body {
     width: 760px;
   }
