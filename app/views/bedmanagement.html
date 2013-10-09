@@ -8,15 +8,15 @@
    </header>
    
 <div class="content-wrapper">
-<div class="bed-info">
-  <ul>
-      <li>Bed 12 - GAN20002</li>
-      <li><a href="">Ram Kumar</a></li>
-  </ul>
+<div class="bed-info hide">
+    <ul>
+      <li>Bed: GM22 </li>
+      <li><a class="assign">Assign</a></li>
+    </ul>
 </div>
 <div class="bed-assignment">
   
-  <ul>
+  <ul class="bed-assignment-inner-wrapper">
       <li class="row">
           <ul>
               <li class="col occupied"></li>
@@ -28,7 +28,6 @@
               <li class="col occupied"></li>
               <li class="col available"></li>
               <li class="col available"></li>
-              <li class="col occupied"></li>
               <li class="col occupied"></li>
               
           </ul>
@@ -36,31 +35,29 @@
       <li class="row">
           <ul>
               <li class="col occupied"></li>
-              <li class="col path"></li>
-              <li class="col path"></li>
-              <li class="col path"></li>
-              <li class="col path"></li>
-              <li class="col path"></li>
-              <li class="col path"></li>
-              <li class="col path"></li>
-              <li class="col path"></li>
-              <li class="col path"></li>
-              <li class="col path"></li>
+              <li class="col empty"></li>
+              <li class="col empty"></li>
+              <li class="col empty"></li>
+              <li class="col empty"></li>
+              <li class="col empty"></li>
+              <li class="col empty"></li>
+              <li class="col empty"></li>
+              <li class="col empty"></li>
+              <li class="col empty"></li>
               
           </ul>
       </li>
       <li class="row">
           <ul>
               <li class="col occupied"></li>
-              <li class="col path"></li>
+              <li class="col empty"></li>
               <li class="col occupied"></li>
               <li class="col available"></li>
               <li class="col occupied"></li>
               <li class="col available"></li>
               <li class="col occupied"></li>
               <li class="col occupied"></li>
-              <li class="col path"></li>
-              <li class="col occupied"></li>
+              <li class="col empty"></li>
               <li class="col occupied"></li>
              
           </ul>
@@ -68,23 +65,22 @@
       <li class="row">
           <ul>
               <li class="col occupied"></li>
-              <li class="col path"></li>
-              <li class="col path"></li>
-              <li class="col path"></li>
-              <li class="col path"></li>
-              <li class="col path"></li>
-              <li class="col path"></li>
-              <li class="col path"></li>
-              <li class="col path"></li>
-              <li class="col path"></li>
-              <li class="col occupied"></li>
+              <li class="col empty"></li>
+              <li class="col empty"></li>
+              <li class="col empty"></li>
+              <li class="col empty"></li>
+              <li class="col empty"></li>
+              <li class="col empty"></li>
+              <li class="col empty"></li>
+              <li class="col empty"></li>
+              <li class="col empty"></li>
              
             </ul>
       </li>
       <li class="row">
           <ul>
               <li class="col occupied"></li>
-              <li class="col path"></li>
+              <li class="col empty"></li>
               <li class="col occupied"></li>
               <li class="col available"></li>
               <li class="col occupied"></li>
@@ -93,33 +89,40 @@
               <li class="col occupied"></li>
               <li class="col occupied"></li>
               <li class="col available"></li>
-              <li class="col occupied"></li>
-              
-          </ul>
+          </ul> 
       </li>
   </ul>
 </div>
 </div>
 
-<script>
+<script type="text/javascript">
 $(function(){
 $(".bed-assignment li.occupied").click(function(){
+    $(".assign").hide();
     var leftpos=$(this).offset().left;
     var toppos=$(this).offset().top+55;
     $(".bed-info").show();
     $(".bed-info").css('left',leftpos);
     $(".bed-info").css('top',toppos);
   });
-$(".bed-assignment li.available,.bed-assignment li.path").click(function(){
+$(".bed-assignment li.available").click(function(){
+    $(".assign").show();
+    var leftpos=$(this).offset().left;
+    var toppos=$(this).offset().top+55;
+    $(".bed-info").show();
+    $(".bed-info").css('left',leftpos);
+    $(".bed-info").css('top',toppos);
+  });
+$(".bed-assignment li.empty").click(function(){
     $(".bed-info").hide();
 })
 
-$("body").on('click', function(ev) {
-    var myID = ev.target.id;
-    if (myID !== 'popup') {
-        $('#popup').hide();
-    }
-});
+// $("body").on('click', function(ev) {
+//     var myID = ev.target.id;
+//     if (myID !== 'popup') {
+//         $('#popup').hide();
+//     }
+// });
 });
 
 </script>
