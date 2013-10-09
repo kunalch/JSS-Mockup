@@ -1,0 +1,36 @@
+<div class="opd-header-wrapper">
+<header class="reg-header" ng-controller="ConsultationNavigationController">
+                        <ul class="header-tabs">
+                            
+                        </ul>
+                         <ul class="patient-info">
+                            <li><img class="roundImages" ng-src="/patient_images/GAN200044.jpeg?q=1381299309815" onerror="this.onerror=null;this.src='../images/blank-user.gif'" src="../images/blank-user.gif"></li>
+                             <li class="logoff">
+                                <button ng-click="logout()"><i class="icon-off icon-white small"></i></button>
+                            </li>
+                        </ul>
+
+                        <div class="patient-detail">
+                            <ul>
+                                <li class="ng-binding">GAN200044</li>
+                                <li><span class="ng-binding">shahrukh khan,</span></li>
+                                <li class="ng-binding">Male, 90,</li>
+                                <li ng-show="bed" class="ng-binding" style="display: none;">Bed : </li>
+                            </ul>
+                        </div>
+                </header>
+</div>
+<div class="opd-wrapper">
+    <div class="vitals">
+        <form>
+        <span class="select-arrow">
+            <select>
+                <option>Select vitals</option>
+                <option>Blood Pressssure</option>
+                <option>O2 Sat</option>
+                <option>Respiratory Rate</option>
+            </select>
+        </span>
+        </form>
+    </div>
+</div>

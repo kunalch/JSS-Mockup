@@ -1,7 +1,71 @@
 @import "jss-ui-common";
 @import "compass";
 
-
+.opd-header-wrapper{
+        @include pie-clearfix;
+        background:#00463F;
+        header{
+            width:960px;
+            margin:0px auto;
+            border-radius:0px;
+            padding:2px;
+            position:relative;
+            .header-logo{
+                background:url("../images/jss_logo.png") no-repeat left top;
+                padding:10px 0px 7px 40px;
+                float:left;
+                margin-top:7px;
+            }
+            ul{
+                &.header-tabs{
+                    float:left;
+                    margin-top:10px;
+                }
+                &.patient-info{
+                    float:right;
+                    li{
+                      float:left;
+                      margin:0px 10px 0px 0px;
+                    }    
+                }
+                li{
+                    @include font-size(0.9);
+                    margin: 0px 15px 0px 0px;
+                    &.logoff{
+                        margin:4px 0px 0px 0px;
+                        button{
+                            padding:10px;
+                            margin-top: 1px;
+                            color:#fff;
+                            background:#447772;
+                            border:1px solid #00463F;
+                            &:hover{
+                              background:#4D9B92;
+                           }
+                        }
+                    }   
+                a{
+                    padding-top:10px;
+                    cursor:pointer;
+                    
+                 }
+                }
+            }
+            .patient-detail{
+                position:absolute;
+                top:62px;
+                right:10px;
+                color:#F26522;
+                z-index:999;
+            }
+        }
+    }
+    .roundImages{
+    height: 40px;
+    width: 40px;
+    border-radius:50%;
+    margin-top:4px;
+}
 /* patient queue   css  start **/
 .table-filter-wrapper{
   padding:0px 0px 15px;
@@ -198,6 +262,12 @@
     }
   }
 }
+/*** bed management css end ***/
+/** vitals css start **/
+.vitals{
+  padding:10px;
+}
+/** vitals css end **/
 @media only screen and (max-width: 1200px) {
                 body { font-size:90%;}
  }
