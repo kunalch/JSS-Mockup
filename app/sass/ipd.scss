@@ -265,7 +265,16 @@
 /*** bed management css end ***/
 /** vitals css start **/
 .vitals{
-  padding:10px;
+  padding:10px 10px;
+  text-align: center;
+  .vitals-wrapper{
+    padding:10px 0px;
+  }
+  .vitals-select{
+    margin-top: 30px;
+    margin-bottom:20px;
+    display: inline-block;
+  }
 }
 /** vitals css end **/
 @media only screen and (max-width: 1200px) {
