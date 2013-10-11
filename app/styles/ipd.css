@@ -19,16 +19,17 @@ body {
   font-size: 100%;
   line-height: 1.1em;
   margin: 0px auto;
+  background: #fff;
   width: 968px;
 }
 
-/* line 18, ../sass/_jss-ui-common.scss */
+/* line 19, ../sass/_jss-ui-common.scss */
 header {
   position: relative;
   color: #CCC;
   border-radius: 0px;
 }
-/* line 22, ../sass/_jss-ui-common.scss */
+/* line 23, ../sass/_jss-ui-common.scss */
 header .header-logo {
   background: url("../images/jss_logo.png") no-repeat scroll left top transparent;
   color: #ffffff;
@@ -41,39 +42,39 @@ header .header-logo {
   line-height: 15px;
   float: left;
 }
-/* line 34, ../sass/_jss-ui-common.scss */
+/* line 35, ../sass/_jss-ui-common.scss */
 header ul {
   float: right;
 }
-/* line 36, ../sass/_jss-ui-common.scss */
+/* line 37, ../sass/_jss-ui-common.scss */
 header ul li {
   margin: 11px 15px 10px 0px;
   display: inline-block;
 }
-/* line 39, ../sass/_jss-ui-common.scss */
+/* line 40, ../sass/_jss-ui-common.scss */
 header ul li a {
   color: #f2f2f2;
   font-weight: bold;
   cursor: pointer;
   text-decoration: none;
 }
-/* line 44, ../sass/_jss-ui-common.scss */
+/* line 45, ../sass/_jss-ui-common.scss */
 header ul li a .nav-link {
   padding-left: 2px;
 }
-/* line 46, ../sass/_jss-ui-common.scss */
+/* line 47, ../sass/_jss-ui-common.scss */
 header ul li a .nav-link:hover {
   text-decoration: underline;
 }
 
 /******** form element styling start********/
-/* line 56, ../sass/_jss-ui-common.scss */
+/* line 57, ../sass/_jss-ui-common.scss */
 form fieldset {
   border: none;
   padding: 0px;
   width: 100%;
 }
-/* line 61, ../sass/_jss-ui-common.scss */
+/* line 62, ../sass/_jss-ui-common.scss */
 form .form-field-inline .form-field {
   float: left;
   display: inline;
@@ -82,51 +83,51 @@ form .form-field-inline .form-field {
   margin: 0;
   margin-bottom: 10px;
 }
-/* line 69, ../sass/_jss-ui-common.scss */
+/* line 70, ../sass/_jss-ui-common.scss */
 form .form-field {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 71, ../sass/_jss-ui-common.scss */
+/* line 72, ../sass/_jss-ui-common.scss */
 form .form-field .field-attribute {
   float: left;
 }
-/* line 73, ../sass/_jss-ui-common.scss */
+/* line 74, ../sass/_jss-ui-common.scss */
 form .form-field .field-attribute label {
   width: 13em;
   float: left;
   text-align: right;
   margin: 0.5em 0.8em 0em 0em;
 }
-/* line 80, ../sass/_jss-ui-common.scss */
+/* line 81, ../sass/_jss-ui-common.scss */
 form .form-field .field-value {
   float: left;
 }
-/* line 82, ../sass/_jss-ui-common.scss */
+/* line 83, ../sass/_jss-ui-common.scss */
 form .form-field .field-value input[type="text"], form .form-field .field-value .input-prepend [type="text"].add-on, form .input-prepend .form-field .field-value [type="text"].add-on, form .form-field .field-value input[type="password"], form .form-field .field-value .input-prepend [type="password"].add-on, form .input-prepend .form-field .field-value [type="password"].add-on {
   float: left;
   width: 12.5em;
 }
-/* line 86, ../sass/_jss-ui-common.scss */
+/* line 87, ../sass/_jss-ui-common.scss */
 form .form-field .field-value input[type="number"], form .form-field .field-value .input-prepend [type="number"].add-on, form .input-prepend .form-field .field-value [type="number"].add-on {
   width: 8em;
 }
-/* line 89, ../sass/_jss-ui-common.scss */
+/* line 90, ../sass/_jss-ui-common.scss */
 form .form-field .field-value span.value-text-only {
   display: inline-block;
   margin: 0.5em 0.8em 0em 0em;
 }
-/* line 96, ../sass/_jss-ui-common.scss */
+/* line 97, ../sass/_jss-ui-common.scss */
 form .form-field-inline p {
   float: left;
   margin-left: 20px;
   margin-top: 10px;
 }
-/* line 102, ../sass/_jss-ui-common.scss */
+/* line 103, ../sass/_jss-ui-common.scss */
 form .input-prepend {
   float: left;
 }
-/* line 104, ../sass/_jss-ui-common.scss */
+/* line 105, ../sass/_jss-ui-common.scss */
 form .input-prepend input, form .input-prepend .add-on {
   display: inline-block;
   margin-bottom: 0;
@@ -134,7 +135,7 @@ form .input-prepend input, form .input-prepend .add-on {
   float: left;
   margin: 0px !important;
 }
-/* line 111, ../sass/_jss-ui-common.scss */
+/* line 112, ../sass/_jss-ui-common.scss */
 form .input-prepend .add-on {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -147,34 +148,34 @@ form .input-prepend .add-on {
   background-color: #eee;
   border: 1px solid #ccc;
 }
-/* line 122, ../sass/_jss-ui-common.scss */
+/* line 123, ../sass/_jss-ui-common.scss */
 form .input-prepend .add-on:first-child, form .input-prepend .btn:first-child {
   -webkit-border-radius: 4px 0 0 4px;
   -moz-border-radius: 4px 0 0 4px;
   border-radius: 4px 0 0 4px;
 }
-/* line 127, ../sass/_jss-ui-common.scss */
+/* line 128, ../sass/_jss-ui-common.scss */
 form .input-prepend .add-on, form .input-prepend .btn {
   margin-right: -1px;
 }
-/* line 130, ../sass/_jss-ui-common.scss */
+/* line 131, ../sass/_jss-ui-common.scss */
 form input[disabled], form .input-prepend [disabled].add-on, form select[disabled], form textarea[disabled], form input[readonly], form .input-prepend [readonly].add-on, form select[readonly], form textarea[readonly] {
   cursor: not-allowed;
   background-color: #eee;
 }
-/* line 133, ../sass/_jss-ui-common.scss */
+/* line 134, ../sass/_jss-ui-common.scss */
 form input[disabled]:focus, form .input-prepend [disabled].add-on:focus, form select[disabled]:focus, form textarea[disabled]:focus, form input[readonly]:focus, form .input-prepend [readonly].add-on:focus, form select[readonly]:focus, form textarea[readonly]:focus {
   cursor: not-allowed;
   background-color: #eee;
   outline: none;
 }
-/* line 139, ../sass/_jss-ui-common.scss */
+/* line 140, ../sass/_jss-ui-common.scss */
 form .form-button-wrapper {
   margin-top: 10px;
   padding-left: 14em;
 }
 
-/* line 144, ../sass/_jss-ui-common.scss */
+/* line 145, ../sass/_jss-ui-common.scss */
 .input-mini {
   display: inline;
   float: left;
@@ -182,7 +183,7 @@ form .form-button-wrapper {
   margin: 0 1.04167%;
 }
 
-/* line 145, ../sass/_jss-ui-common.scss */
+/* line 146, ../sass/_jss-ui-common.scss */
 .input-small {
   display: inline;
   float: left;
@@ -190,7 +191,7 @@ form .form-button-wrapper {
   margin: 0 1.04167%;
 }
 
-/* line 146, ../sass/_jss-ui-common.scss */
+/* line 147, ../sass/_jss-ui-common.scss */
 .input-medium {
   display: inline;
   float: left;
@@ -198,7 +199,7 @@ form .form-button-wrapper {
   margin: 0 1.04167%;
 }
 
-/* line 147, ../sass/_jss-ui-common.scss */
+/* line 148, ../sass/_jss-ui-common.scss */
 .input-large {
   display: inline;
   float: left;
@@ -206,7 +207,7 @@ form .form-button-wrapper {
   margin: 0 1.04167%;
 }
 
-/* line 148, ../sass/_jss-ui-common.scss */
+/* line 149, ../sass/_jss-ui-common.scss */
 .input-xlarge {
   display: inline;
   float: left;
@@ -214,7 +215,7 @@ form .form-button-wrapper {
   margin: 0 1.04167%;
 }
 
-/* line 149, ../sass/_jss-ui-common.scss */
+/* line 150, ../sass/_jss-ui-common.scss */
 .input-xxlarge {
   display: inline;
   float: left;
@@ -222,13 +223,13 @@ form .form-button-wrapper {
   margin: 0 1.04167%;
 }
 
-/* line 150, ../sass/_jss-ui-common.scss */
+/* line 151, ../sass/_jss-ui-common.scss */
 textarea {
   width: 426.6px;
   height: 84px;
 }
 
-/* line 154, ../sass/_jss-ui-common.scss */
+/* line 155, ../sass/_jss-ui-common.scss */
 .span1 {
   display: inline;
   float: left;
@@ -236,7 +237,7 @@ textarea {
   margin: 0 1.04167%;
 }
 
-/* line 157, ../sass/_jss-ui-common.scss */
+/* line 158, ../sass/_jss-ui-common.scss */
 .span2 {
   display: inline;
   float: left;
@@ -244,7 +245,7 @@ textarea {
   margin: 0 1.04167%;
 }
 
-/* line 160, ../sass/_jss-ui-common.scss */
+/* line 161, ../sass/_jss-ui-common.scss */
 .span3 {
   display: inline;
   float: left;
@@ -252,7 +253,7 @@ textarea {
   margin: 0 1.04167%;
 }
 
-/* line 163, ../sass/_jss-ui-common.scss */
+/* line 164, ../sass/_jss-ui-common.scss */
 .span4 {
   display: inline;
   float: left;
@@ -260,7 +261,7 @@ textarea {
   margin: 0 1.04167%;
 }
 
-/* line 166, ../sass/_jss-ui-common.scss */
+/* line 167, ../sass/_jss-ui-common.scss */
 .span5 {
   display: inline;
   float: left;
@@ -268,7 +269,7 @@ textarea {
   margin: 0 1.04167%;
 }
 
-/* line 169, ../sass/_jss-ui-common.scss */
+/* line 170, ../sass/_jss-ui-common.scss */
 .span6 {
   display: inline;
   float: left;
@@ -276,7 +277,7 @@ textarea {
   margin: 0 1.04167%;
 }
 
-/* line 172, ../sass/_jss-ui-common.scss */
+/* line 173, ../sass/_jss-ui-common.scss */
 .span7 {
   display: inline;
   float: left;
@@ -284,7 +285,7 @@ textarea {
   margin: 0 1.04167%;
 }
 
-/* line 175, ../sass/_jss-ui-common.scss */
+/* line 176, ../sass/_jss-ui-common.scss */
 .span8 {
   display: inline;
   float: left;
@@ -292,7 +293,7 @@ textarea {
   margin: 0 1.04167%;
 }
 
-/* line 178, ../sass/_jss-ui-common.scss */
+/* line 179, ../sass/_jss-ui-common.scss */
 .span9 {
   display: inline;
   float: left;
@@ -300,7 +301,7 @@ textarea {
   margin: 0 1.04167%;
 }
 
-/* line 181, ../sass/_jss-ui-common.scss */
+/* line 182, ../sass/_jss-ui-common.scss */
 .span10 {
   display: inline;
   float: left;
@@ -308,7 +309,7 @@ textarea {
   margin: 0 1.04167%;
 }
 
-/* line 184, ../sass/_jss-ui-common.scss */
+/* line 185, ../sass/_jss-ui-common.scss */
 .span11 {
   display: inline;
   float: left;
@@ -316,7 +317,7 @@ textarea {
   margin: 0 1.04167%;
 }
 
-/* line 187, ../sass/_jss-ui-common.scss */
+/* line 188, ../sass/_jss-ui-common.scss */
 .span12 {
   display: inline;
   float: left;
@@ -324,13 +325,13 @@ textarea {
   margin: 0 1.04167%;
 }
 
-/* line 190, ../sass/_jss-ui-common.scss */
+/* line 191, ../sass/_jss-ui-common.scss */
 form .select-arrow:after, .form .select-arrow:after {
   height: auto;
 }
 
 /********* form element styling end***********/
-/* line 193, ../sass/_jss-ui-common.scss */
+/* line 194, ../sass/_jss-ui-common.scss */
 .content-wrapper {
   background: #fff;
   overflow: hidden;
@@ -338,19 +339,19 @@ form .select-arrow:after, .form .select-arrow:after {
   padding: 20px 10px 10px 10px;
 }
 
-/* line 198, ../sass/_jss-ui-common.scss */
+/* line 199, ../sass/_jss-ui-common.scss */
 .menu-drag-info-wrapper {
   padding: 5px 0px 0px 0px;
   background: #cecece;
   border-bottom: 1px solid #cecece;
   position: relative;
 }
-/* line 203, ../sass/_jss-ui-common.scss */
+/* line 204, ../sass/_jss-ui-common.scss */
 .menu-drag-info-wrapper .menu-drag-info {
   background: #f1f1f1;
   padding: 5px;
 }
-/* line 207, ../sass/_jss-ui-common.scss */
+/* line 208, ../sass/_jss-ui-common.scss */
 .menu-drag-info-wrapper .menu-drag {
   width: 60px;
   height: 22px;
@@ -376,7 +377,7 @@ form .select-arrow:after, .form .select-arrow:after {
   border: 1px solid #cecece;
   border-top: none;
 }
-/* line 222, ../sass/_jss-ui-common.scss */
+/* line 223, ../sass/_jss-ui-common.scss */
 .menu-drag-info-wrapper .menu-drag span {
   width: 0;
   height: 0;
@@ -384,7 +385,7 @@ form .select-arrow:after, .form .select-arrow:after {
   border-right: 5px solid transparent;
   border-bottom: 5px solid black;
 }
-/* line 230, ../sass/_jss-ui-common.scss */
+/* line 231, ../sass/_jss-ui-common.scss */
 .menu-drag-info-wrapper .menu-drag-close {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cecece), color-stop(100%, #f1f1f1));
   background-image: -webkit-linear-gradient(#cecece, #f1f1f1);
@@ -393,7 +394,7 @@ form .select-arrow:after, .form .select-arrow:after {
   background-image: linear-gradient(#cecece, #f1f1f1);
 }
 
-/* line 234, ../sass/_jss-ui-common.scss */
+/* line 235, ../sass/_jss-ui-common.scss */
 .patient-details-mini {
   height: 100px;
   width: 100px;
@@ -755,29 +756,193 @@ form .select-arrow:after, .form .select-arrow:after {
 /** vitals css start **/
 /* line 267, ../sass/ipd.scss */
 .vitals {
-  padding: 10px 10px;
-  text-align: center;
+  padding: 0px 0px 10px;
 }
-/* line 270, ../sass/ipd.scss */
+/* line 269, ../sass/ipd.scss */
 .vitals .vitals-wrapper {
   padding: 10px 0px;
 }
-/* line 273, ../sass/ipd.scss */
+/* line 272, ../sass/ipd.scss */
 .vitals .vitals-select {
-  margin-top: 30px;
+  padding: 13px 12px 14px;
+  background: #D5DFC7;
   margin-bottom: 20px;
-  display: inline-block;
+  box-shadow: 1px 3px 4px #CECECE;
+}
+/* line 277, ../sass/ipd.scss */
+.vitals .vitals-select button {
+  margin-left: 10px;
 }
 
 /** vitals css end **/
+/** drop down checklist ****/
+/* line 284, ../sass/ipd.scss */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 289, ../sass/ipd.scss */
+.btn-group, .btn-group-vertical {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 294, ../sass/ipd.scss */
+.btn-group.open .dropdown-toggle {
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+/* line 298, ../sass/ipd.scss */
+.btn-group .dropdown-toggle:active, .btn-group.open .dropdown-toggle {
+  outline: 0;
+}
+
+/* line 301, ../sass/ipd.scss */
+.btn-group > .btn:first-child {
+  margin-left: 0;
+}
+
+/* line 304, ../sass/ipd.scss */
+.btn-group > .btn, .btn-group-vertical > .btn {
+  position: relative;
+  float: left;
+}
+
+/* line 308, ../sass/ipd.scss */
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+/* line 327, ../sass/ipd.scss */
+.open > .dropdown-menu {
+  display: block;
+}
+
+/* line 330, ../sass/ipd.scss */
+.radio, .checkbox {
+  display: block;
+  min-height: 20px;
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
+
+/* line 338, ../sass/ipd.scss */
+input[type="radio"], form .input-prepend [type="radio"].add-on, input[type="checkbox"], form .input-prepend [type="checkbox"].add-on {
+  margin: 4px 0 0;
+  margin-top: 1px \9;
+  line-height: normal;
+}
+
+/* line 343, ../sass/ipd.scss */
+.radio input[type="radio"], .radio form .input-prepend [type="radio"].add-on, form .input-prepend .radio [type="radio"].add-on, .radio-inline input[type="radio"], .radio-inline form .input-prepend [type="radio"].add-on, form .input-prepend .radio-inline [type="radio"].add-on, .checkbox input[type="checkbox"], .checkbox form .input-prepend [type="checkbox"].add-on, form .input-prepend .checkbox [type="checkbox"].add-on, .checkbox-inline input[type="checkbox"], .checkbox-inline form .input-prepend [type="checkbox"].add-on, form .input-prepend .checkbox-inline [type="checkbox"].add-on {
+  float: left;
+  margin-left: -20px;
+}
+
+/* line 347, ../sass/ipd.scss */
+.btn .caret {
+  margin-left: 0;
+}
+
+/* line 350, ../sass/ipd.scss */
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px solid #000;
+  border-right: 4px solid rgba(0, 0, 0, 0);
+  border-bottom: 0 dotted;
+  border-left: 4px solid rgba(0, 0, 0, 0);
+  content: "";
+}
+
+/* line 363, ../sass/ipd.scss */
+.multiselect-container {
+  position: absolute;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 369, ../sass/ipd.scss */
+.multiselect-container .input-group {
+  margin: 5px;
+}
+
+/* line 372, ../sass/ipd.scss */
+.multiselect-container > li {
+  padding: 0;
+}
+
+/* line 375, ../sass/ipd.scss */
+.multiselect-container > li > a.multiselect-all label {
+  font-weight: bold;
+}
+
+/* line 378, ../sass/ipd.scss */
+.multiselect-container > li > label.multiselect-group {
+  margin: 0;
+  padding: 3px 20px 3px 20px;
+  height: 100%;
+}
+
+/* line 383, ../sass/ipd.scss */
+.multiselect-container > li > a > label {
+  margin: 0;
+  height: 100%;
+  cursor: pointer;
+  font-weight: normal;
+}
+
+/* line 390, ../sass/ipd.scss */
+.multiselect-container > li > a > label.radio,
+.multiselect-container > li > a > label.checkbox {
+  margin: 0;
+}
+
+/* line 393, ../sass/ipd.scss */
+.multiselect-container > li > a > label > input[type="checkbox"], form .input-prepend .multiselect-container > li > a > label > [type="checkbox"].add-on {
+  margin-bottom: 5px;
+}
+
+/* line 396, ../sass/ipd.scss */
+.btn-group > .btn-group:nth-child(2) > .multiselect.btn {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
 @media only screen and (max-width: 1200px) {
-  /* line 281, ../sass/ipd.scss */
+  /* line 402, ../sass/ipd.scss */
   body {
     font-size: 90%;
   }
 }
 @media only screen and (max-width: 760px) {
-  /* line 284, ../sass/ipd.scss */
+  /* line 405, ../sass/ipd.scss */
   body {
     width: 760px;
   }

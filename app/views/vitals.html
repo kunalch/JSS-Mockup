@@ -24,16 +24,18 @@
     <div class="vitals">
         <form>
         <div class="vitals-select">
-            <span class="select-arrow">
-                <select>
-                    <option>Select vitals</option>
-                    <option>Blood Pressssure Blood Pressssure</option>
-                    <option>O2 Sat</option>
-                    <option>Respiratory Rate</option>
-                </select>
-            </span>
-            <button class="confirm">Add</button>
+                        <select class="multiselect" multiple>
+                            <option value="b">Blood Pressssure </option>
+                            <option value="c">O2 Sat</option>
+                            <option value="d">Respiratory Rate</option>
+                            <option value="e">Respiratory Rate</option>
+                            <option value="r">Respiratory Rate</option>
+                            <option value="f">Respiratory Rate</option>
+
+                        </select>
+                        <button class="confirm">Add</button>         
         </div>
+
         <div class="vitals-wrapper">
             <div class="form-field-inline">
                 <article class="form-field">
@@ -112,3 +114,9 @@
         </form>
     </div>
 </div>
+
+<script>
+$(function(){
+ $('.multiselect').multiselect();
+});
+</script>
