@@ -1119,10 +1119,10 @@ input[type="radio"], form .input-prepend [type="radio"].add-on, input[type="chec
 /* line 560, ../sass/ipd.scss */
 .patientdashboard .patientdashboard-action, .particularvisit .patientdashboard-action {
   width: 20%;
+  margin-top: 40px;
   float: right;
-  height: 100%;
   height: 844px;
-  background: #2F353F;
+  background: #164453;
 }
 /* line 566, ../sass/ipd.scss */
 .patientdashboard .patientdashboard-action h2, .particularvisit .patientdashboard-action h2 {
@@ -1159,12 +1159,12 @@ input[type="radio"], form .input-prepend [type="radio"].add-on, input[type="chec
 }
 /* line 591, ../sass/ipd.scss */
 .patientdashboard .patientdashboard-action .visit-history ul li.active, .particularvisit .patientdashboard-action .visit-history ul li.active {
-  background: #4D648B;
+  background: #387C92;
 }
 /* line 594, ../sass/ipd.scss */
 .patientdashboard .patientdashboard-action .visit-history ul li:hover, .particularvisit .patientdashboard-action .visit-history ul li:hover {
   cursor: pointer;
-  background: #36435A;
+  background: #245666;
 }
 /* line 601, ../sass/ipd.scss */
 .patientdashboard .patientdashboard-action .patientdashboard-action-list, .particularvisit .patientdashboard-action .patientdashboard-action-list {
