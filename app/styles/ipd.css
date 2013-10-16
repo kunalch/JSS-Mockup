@@ -1071,46 +1071,60 @@ input[type="radio"], form .input-prepend [type="radio"].add-on, input[type="chec
   overflow: scroll;
 }
 /* line 518, ../sass/ipd.scss */
+.patientdashboard .pd-date, .particularvisit .pd-date {
+  background: #dad4d4;
+  padding: 2px;
+}
+/* line 522, ../sass/ipd.scss */
+.patientdashboard .pd-note, .particularvisit .pd-note {
+  font-size: 13px;
+}
+/* line 525, ../sass/ipd.scss */
+.patientdashboard h2, .particularvisit h2 {
+  border-bottom: 4px solid #00463F;
+}
+/* line 528, ../sass/ipd.scss */
+.patientdashboard dd, .particularvisit dd {
+  -webkit-margin-start: 10px;
+}
+/* line 531, ../sass/ipd.scss */
 .patientdashboard .consultation, .particularvisit .consultation {
   width: 80%;
   float: left;
 }
-/* line 521, ../sass/ipd.scss */
+/* line 534, ../sass/ipd.scss */
 .patientdashboard .consultation .block, .particularvisit .consultation .block {
   width: 48%;
   float: left;
 }
-/* line 524, ../sass/ipd.scss */
+/* line 537, ../sass/ipd.scss */
 .patientdashboard .consultation .block.investigation, .particularvisit .consultation .block.investigation {
   width: 98%;
 }
-/* line 529, ../sass/ipd.scss */
+/* line 542, ../sass/ipd.scss */
 .patientdashboard .consultation .investigation li, .particularvisit .consultation .investigation li {
   background: none;
   display: block;
-  margin-top: 5px;
+  margin-top: 0px;
 }
-/* line 536, ../sass/ipd.scss */
+/* line 549, ../sass/ipd.scss */
 .patientdashboard .consultation .diagnosis a, .particularvisit .consultation .diagnosis a {
   background: #fff;
 }
-/* line 539, ../sass/ipd.scss */
-.patientdashboard .consultation .diagnosis small, .particularvisit .consultation .diagnosis small {
-  background: #dad4d4;
-}
-/* line 545, ../sass/ipd.scss */
+/* line 555, ../sass/ipd.scss */
 .patientdashboard .block-content ul li, .particularvisit .block-content ul li {
-  padding: 6px 10px;
+  padding: 4px 10px;
+  font-size: 14px;
 }
-/* line 549, ../sass/ipd.scss */
+/* line 560, ../sass/ipd.scss */
 .patientdashboard .patientdashboard-action, .particularvisit .patientdashboard-action {
   width: 20%;
   float: right;
   height: 100%;
-  height: 780px;
+  height: 844px;
   background: #2F353F;
 }
-/* line 555, ../sass/ipd.scss */
+/* line 566, ../sass/ipd.scss */
 .patientdashboard .patientdashboard-action h2, .particularvisit .patientdashboard-action h2 {
   font-size: 17.6px;
   font-size: 1.1rem;
@@ -1121,21 +1135,21 @@ input[type="radio"], form .input-prepend [type="radio"].add-on, input[type="chec
   font-weight: 700;
   font-family: arial;
 }
-/* line 564, ../sass/ipd.scss */
+/* line 575, ../sass/ipd.scss */
 .patientdashboard .patientdashboard-action .block, .particularvisit .patientdashboard-action .block {
   padding: 10px;
 }
-/* line 568, ../sass/ipd.scss */
+/* line 579, ../sass/ipd.scss */
 .patientdashboard .patientdashboard-action .visit-history, .particularvisit .patientdashboard-action .visit-history {
   min-height: 100px;
   max-height: 300px;
   overflow: scroll;
 }
-/* line 572, ../sass/ipd.scss */
+/* line 583, ../sass/ipd.scss */
 .patientdashboard .patientdashboard-action .visit-history ul, .particularvisit .patientdashboard-action .visit-history ul {
   margin-right: 5px;
 }
-/* line 574, ../sass/ipd.scss */
+/* line 585, ../sass/ipd.scss */
 .patientdashboard .patientdashboard-action .visit-history ul li, .particularvisit .patientdashboard-action .visit-history ul li {
   border-right: 1px solid #fff;
   color: #fff;
@@ -1143,25 +1157,25 @@ input[type="radio"], form .input-prepend [type="radio"].add-on, input[type="chec
   text-align: right;
   padding: 15px 8px;
 }
-/* line 580, ../sass/ipd.scss */
+/* line 591, ../sass/ipd.scss */
 .patientdashboard .patientdashboard-action .visit-history ul li.active, .particularvisit .patientdashboard-action .visit-history ul li.active {
   background: #4D648B;
 }
-/* line 583, ../sass/ipd.scss */
+/* line 594, ../sass/ipd.scss */
 .patientdashboard .patientdashboard-action .visit-history ul li:hover, .particularvisit .patientdashboard-action .visit-history ul li:hover {
   cursor: pointer;
   background: #36435A;
 }
-/* line 590, ../sass/ipd.scss */
+/* line 601, ../sass/ipd.scss */
 .patientdashboard .patientdashboard-action .patientdashboard-action-list, .particularvisit .patientdashboard-action .patientdashboard-action-list {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-/* line 593, ../sass/ipd.scss */
+/* line 604, ../sass/ipd.scss */
 .patientdashboard .patientdashboard-action .patientdashboard-action-list li, .particularvisit .patientdashboard-action .patientdashboard-action-list li {
   padding: 10px 0px;
 }
-/* line 595, ../sass/ipd.scss */
+/* line 606, ../sass/ipd.scss */
 .patientdashboard .patientdashboard-action .patientdashboard-action-list li a, .particularvisit .patientdashboard-action .patientdashboard-action-list li a {
   padding: 5px 10px;
   color: #fff;
@@ -1170,20 +1184,20 @@ input[type="radio"], form .input-prepend [type="radio"].add-on, input[type="chec
   text-decoration: none;
   font-size: 14px;
 }
-/* line 602, ../sass/ipd.scss */
+/* line 613, ../sass/ipd.scss */
 .patientdashboard .patientdashboard-action .patientdashboard-action-list li a:hover, .particularvisit .patientdashboard-action .patientdashboard-action-list li a:hover {
   background: #99A2B1;
   color: #000;
 }
 
 @media only screen and (max-width: 768px) {
-  /* line 617, ../sass/ipd.scss */
+  /* line 628, ../sass/ipd.scss */
   body {
     width: 760px;
   }
 }
 @media only screen and (max-width: 1200px) {
-  /* line 620, ../sass/ipd.scss */
+  /* line 631, ../sass/ipd.scss */
   body {
     font-size: 90%;
   }
