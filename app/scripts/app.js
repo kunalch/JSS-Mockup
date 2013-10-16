@@ -6,6 +6,7 @@ angular.module('JSSMockupApp', [])
       .when('/', {templateUrl: 'views/index.html', controller: 'MainCtrl'})
       .when('/queue', {templateUrl: 'views/queue.html'})
       .when('/bedmanagement', {templateUrl: 'views/bedmanagement.html'})
+      .when('/particularvisit', {templateUrl: 'views/particularvisit.html'})
       .when('/patientdashboard', {templateUrl: 'views/patientdashboard.html'})
       .when('/vitals', {templateUrl: 'views/vitals.html'})
       .otherwise({redirectTo: '/'});

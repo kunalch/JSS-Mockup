@@ -401,7 +401,12 @@ form .select-arrow:after, .form .select-arrow:after {
   border: 1px solid #cecece;
 }
 
-/* line 4, ../sass/ipd.scss */
+/* line 3, ../sass/ipd.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 6, ../sass/ipd.scss */
 .opd-header-wrapper {
   *zoom: 1;
   background: #00463F;
@@ -412,7 +417,7 @@ form .select-arrow:after, .form .select-arrow:after {
   display: table;
   clear: both;
 }
-/* line 7, ../sass/ipd.scss */
+/* line 9, ../sass/ipd.scss */
 .opd-header-wrapper header {
   width: 960px;
   margin: 0px auto;
@@ -420,38 +425,38 @@ form .select-arrow:after, .form .select-arrow:after {
   padding: 2px;
   position: relative;
 }
-/* line 13, ../sass/ipd.scss */
+/* line 15, ../sass/ipd.scss */
 .opd-header-wrapper header .header-logo {
   background: url("../images/jss_logo.png") no-repeat left top;
   padding: 10px 0px 7px 40px;
   float: left;
   margin-top: 7px;
 }
-/* line 20, ../sass/ipd.scss */
+/* line 22, ../sass/ipd.scss */
 .opd-header-wrapper header ul.header-tabs {
   float: left;
   margin-top: 10px;
 }
-/* line 24, ../sass/ipd.scss */
+/* line 26, ../sass/ipd.scss */
 .opd-header-wrapper header ul.patient-info {
   float: right;
 }
-/* line 26, ../sass/ipd.scss */
+/* line 28, ../sass/ipd.scss */
 .opd-header-wrapper header ul.patient-info li {
   float: left;
   margin: 0px 10px 0px 0px;
 }
-/* line 31, ../sass/ipd.scss */
+/* line 33, ../sass/ipd.scss */
 .opd-header-wrapper header ul li {
   font-size: 14.4px;
   font-size: 0.9rem;
   margin: 0px 15px 0px 0px;
 }
-/* line 34, ../sass/ipd.scss */
+/* line 36, ../sass/ipd.scss */
 .opd-header-wrapper header ul li.logoff {
   margin: 4px 0px 0px 0px;
 }
-/* line 36, ../sass/ipd.scss */
+/* line 38, ../sass/ipd.scss */
 .opd-header-wrapper header ul li.logoff button {
   padding: 10px;
   margin-top: 1px;
@@ -459,16 +464,16 @@ form .select-arrow:after, .form .select-arrow:after {
   background: #447772;
   border: 1px solid #00463F;
 }
-/* line 42, ../sass/ipd.scss */
+/* line 44, ../sass/ipd.scss */
 .opd-header-wrapper header ul li.logoff button:hover {
   background: #4D9B92;
 }
-/* line 47, ../sass/ipd.scss */
+/* line 49, ../sass/ipd.scss */
 .opd-header-wrapper header ul li a {
   padding-top: 10px;
   cursor: pointer;
 }
-/* line 54, ../sass/ipd.scss */
+/* line 56, ../sass/ipd.scss */
 .opd-header-wrapper header .patient-detail {
   position: absolute;
   top: 62px;
@@ -477,7 +482,7 @@ form .select-arrow:after, .form .select-arrow:after {
   z-index: 999;
 }
 
-/* line 63, ../sass/ipd.scss */
+/* line 65, ../sass/ipd.scss */
 .roundImages {
   height: 40px;
   width: 40px;
@@ -486,51 +491,51 @@ form .select-arrow:after, .form .select-arrow:after {
 }
 
 /* patient queue   css  start **/
-/* line 70, ../sass/ipd.scss */
+/* line 72, ../sass/ipd.scss */
 .table-filter-wrapper {
   padding: 0px 0px 15px;
   overflow: hidden;
 }
-/* line 73, ../sass/ipd.scss */
+/* line 75, ../sass/ipd.scss */
 .table-filter-wrapper .search-box {
   float: left;
   position: relative;
 }
-/* line 76, ../sass/ipd.scss */
+/* line 78, ../sass/ipd.scss */
 .table-filter-wrapper .search-box input, .table-filter-wrapper .search-box form .input-prepend .add-on, form .input-prepend .table-filter-wrapper .search-box .add-on {
   padding-right: 20px;
 }
-/* line 79, ../sass/ipd.scss */
+/* line 81, ../sass/ipd.scss */
 .table-filter-wrapper .search-box span.icon-search {
   position: absolute;
   right: 7px;
   top: 10px;
 }
-/* line 85, ../sass/ipd.scss */
+/* line 87, ../sass/ipd.scss */
 .table-filter-wrapper span.select-arrow {
   float: left;
   margin: 0em .8em;
 }
-/* line 89, ../sass/ipd.scss */
+/* line 91, ../sass/ipd.scss */
 .table-filter-wrapper ul {
   float: right;
   margin-right: 20px;
   margin-top: 10px;
 }
-/* line 93, ../sass/ipd.scss */
+/* line 95, ../sass/ipd.scss */
 .table-filter-wrapper ul li {
   float: left;
   margin-right: 20px;
   color: #00463f;
 }
 
-/* line 100, ../sass/ipd.scss */
+/* line 102, ../sass/ipd.scss */
 .table {
   border: 1px solid #cecece;
   font-size: 16px;
   font-size: 1rem;
 }
-/* line 103, ../sass/ipd.scss */
+/* line 105, ../sass/ipd.scss */
 .table .row {
   *zoom: 1;
   border-bottom: 1px solid #cecece;
@@ -541,13 +546,13 @@ form .select-arrow:after, .form .select-arrow:after {
   display: table;
   clear: both;
 }
-/* line 107, ../sass/ipd.scss */
+/* line 109, ../sass/ipd.scss */
 .table .col {
   padding: 10px 0px;
   font-size: 14.4px;
   font-size: 0.9rem;
 }
-/* line 111, ../sass/ipd.scss */
+/* line 113, ../sass/ipd.scss */
 .table .col1 {
   display: inline;
   float: left;
@@ -557,90 +562,90 @@ form .select-arrow:after, .form .select-arrow:after {
   padding-top: 8px;
   padding-bottom: 5px;
 }
-/* line 117, ../sass/ipd.scss */
+/* line 119, ../sass/ipd.scss */
 .table .col2 {
   display: inline;
   float: left;
   width: 14.58333%;
   margin: 0 1.04167%;
 }
-/* line 120, ../sass/ipd.scss */
+/* line 122, ../sass/ipd.scss */
 .table .col3 {
   display: inline;
   float: left;
   width: 14.58333%;
   margin: 0 1.04167%;
 }
-/* line 123, ../sass/ipd.scss */
+/* line 125, ../sass/ipd.scss */
 .table .col4 {
   display: inline;
   float: left;
   width: 22.91667%;
   margin: 0 1.04167%;
 }
-/* line 126, ../sass/ipd.scss */
+/* line 128, ../sass/ipd.scss */
 .table .col5 {
   display: inline;
   float: left;
   width: 22.91667%;
   margin: 0 1.04167%;
 }
-/* line 129, ../sass/ipd.scss */
+/* line 131, ../sass/ipd.scss */
 .table .table-header {
   background: #F0F0F0;
 }
-/* line 131, ../sass/ipd.scss */
+/* line 133, ../sass/ipd.scss */
 .table .table-header .col {
   font-size: 16px;
   font-size: 1rem;
   font-weight: bold;
 }
-/* line 138, ../sass/ipd.scss */
+/* line 140, ../sass/ipd.scss */
 .table .table-body .row:hover {
   background: #F9F9F9;
 }
 
 /* patient queue   css  start end **/
 /* admit patient   css  start **/
-/* line 146, ../sass/ipd.scss */
+/* line 148, ../sass/ipd.scss */
 .admit-form {
   padding: 10px;
 }
 
-/* line 149, ../sass/ipd.scss */
+/* line 151, ../sass/ipd.scss */
 .admit-detail-wrapper {
   overflow: hidden;
   width: 100%;
 }
-/* line 152, ../sass/ipd.scss */
+/* line 154, ../sass/ipd.scss */
 .admit-detail-wrapper label {
   font-size: 14px;
 }
-/* line 155, ../sass/ipd.scss */
+/* line 157, ../sass/ipd.scss */
 .admit-detail-wrapper p {
   margin-bottom: 6px;
   font-size: 0.9em;
   color: #585656;
 }
-/* line 160, ../sass/ipd.scss */
+/* line 162, ../sass/ipd.scss */
 .admit-detail-wrapper .admit-detail-wrapper-l {
   float: left;
   width: 14em;
   margin-bottom: 15px;
   margin-left: 1em;
 }
-/* line 165, ../sass/ipd.scss */
+/* line 167, ../sass/ipd.scss */
 .admit-detail-wrapper .admit-detail-wrapper-l .patient-photo {
   height: 180px;
   width: 180px;
   border: 1px solid #cecece;
   background: #f1f1f1;
 }
-/* line 172, ../sass/ipd.scss */
+/* line 174, ../sass/ipd.scss */
 .admit-detail-wrapper .admit-detail-wrapper-r {
   float: left;
 }
-/* line 174, ../sass/ipd.scss */
+/* line 176, ../sass/ipd.scss */
 .admit-detail-wrapper .admit-detail-wrapper-r .form-field .field-attribute label {
   width: 13em;
   text-align: left;
@@ -648,12 +653,12 @@ form .select-arrow:after, .form .select-arrow:after {
 
 /* admit patient   css  end **/
 /* bed management css start*/
-/* line 180, ../sass/ipd.scss */
+/* line 182, ../sass/ipd.scss */
 .hide {
   display: none;
 }
 
-/* line 183, ../sass/ipd.scss */
+/* line 185, ../sass/ipd.scss */
 .bed-assignment {
   position: relative;
   width: 894px;
@@ -663,53 +668,53 @@ form .select-arrow:after, .form .select-arrow:after {
   padding: 20px;
   text-align: center;
 }
-/* line 191, ../sass/ipd.scss */
+/* line 193, ../sass/ipd.scss */
 .bed-assignment .bed-assignment-inner-wrapper {
   display: inline-block;
 }
-/* line 194, ../sass/ipd.scss */
+/* line 196, ../sass/ipd.scss */
 .bed-assignment .row {
   overflow: hidden;
 }
-/* line 196, ../sass/ipd.scss */
+/* line 198, ../sass/ipd.scss */
 .bed-assignment .row ul {
   overflow: hidden;
 }
-/* line 198, ../sass/ipd.scss */
+/* line 200, ../sass/ipd.scss */
 .bed-assignment .row ul .col {
   float: left;
   width: 50px;
   height: 50px;
   margin: 19px;
 }
-/* line 203, ../sass/ipd.scss */
+/* line 205, ../sass/ipd.scss */
 .bed-assignment .row ul .col.occupied {
   background: url("../images/bed-occupied.png") no-repeat center center #cecece;
 }
-/* line 205, ../sass/ipd.scss */
+/* line 207, ../sass/ipd.scss */
 .bed-assignment .row ul .col.occupied:hover {
   outline: 5px solid #B4B2B2;
   background-color: #B4B2B2;
   cursor: pointer;
 }
-/* line 211, ../sass/ipd.scss */
+/* line 213, ../sass/ipd.scss */
 .bed-assignment .row ul .col.available {
   background: url("../images/bed-available.png") no-repeat center center #94e594;
 }
-/* line 213, ../sass/ipd.scss */
+/* line 215, ../sass/ipd.scss */
 .bed-assignment .row ul .col.available:hover {
   background-color: #76E676;
   outline: 5px solid #76E676;
   cursor: pointer;
 }
-/* line 219, ../sass/ipd.scss */
+/* line 221, ../sass/ipd.scss */
 .bed-assignment .row ul .col.empty {
   background: beige;
   margin: 0px;
   padding: 19px;
 }
 
-/* line 228, ../sass/ipd.scss */
+/* line 230, ../sass/ipd.scss */
 .bed-info {
   padding: 10px;
   background: #f1f1f1;
@@ -720,21 +725,21 @@ form .select-arrow:after, .form .select-arrow:after {
   opacity: 0.90;
   z-index: 9999;
 }
-/* line 237, ../sass/ipd.scss */
+/* line 239, ../sass/ipd.scss */
 .bed-info li {
   padding: 1px5px;
   color: #000;
   text-align: center;
   font-size: 14px;
 }
-/* line 242, ../sass/ipd.scss */
+/* line 244, ../sass/ipd.scss */
 .bed-info li:first-child {
   border-bottom: 1px solid #000;
   margin-bottom: 2px;
   font-weight: bold;
   font-family: arial;
 }
-/* line 248, ../sass/ipd.scss */
+/* line 250, ../sass/ipd.scss */
 .bed-info li a {
   background-color: #00463F;
   padding: 8px 10px;
@@ -745,7 +750,7 @@ form .select-arrow:after, .form .select-arrow:after {
   border: #012C28;
   border-radius: 5px;
 }
-/* line 257, ../sass/ipd.scss */
+/* line 259, ../sass/ipd.scss */
 .bed-info li a:hover {
   cursor: pointer;
   background-color: #076158;
@@ -754,65 +759,65 @@ form .select-arrow:after, .form .select-arrow:after {
 
 /*** bed management css end ***/
 /** vitals css start **/
-/* line 267, ../sass/ipd.scss */
+/* line 269, ../sass/ipd.scss */
 .vitals {
   padding: 0px 0px 10px;
 }
-/* line 269, ../sass/ipd.scss */
+/* line 271, ../sass/ipd.scss */
 .vitals .vitals-wrapper {
   padding: 10px 0px;
 }
-/* line 272, ../sass/ipd.scss */
+/* line 274, ../sass/ipd.scss */
 .vitals .vitals-select {
   padding: 13px 12px 14px;
   background: #D5DFC7;
   margin-bottom: 20px;
   box-shadow: 1px 3px 4px #CECECE;
 }
-/* line 277, ../sass/ipd.scss */
+/* line 279, ../sass/ipd.scss */
 .vitals .vitals-select button {
   margin-left: 10px;
 }
 
 /** vitals css end **/
 /** drop down checklist ****/
-/* line 284, ../sass/ipd.scss */
+/* line 286, ../sass/ipd.scss */
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 289, ../sass/ipd.scss */
+/* line 291, ../sass/ipd.scss */
 .btn-group, .btn-group-vertical {
   position: relative;
   display: inline-block;
   vertical-align: middle;
 }
 
-/* line 294, ../sass/ipd.scss */
+/* line 296, ../sass/ipd.scss */
 .btn-group.open .dropdown-toggle {
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
 
-/* line 298, ../sass/ipd.scss */
+/* line 300, ../sass/ipd.scss */
 .btn-group .dropdown-toggle:active, .btn-group.open .dropdown-toggle {
   outline: 0;
 }
 
-/* line 301, ../sass/ipd.scss */
+/* line 303, ../sass/ipd.scss */
 .btn-group > .btn:first-child {
   margin-left: 0;
 }
 
-/* line 304, ../sass/ipd.scss */
+/* line 306, ../sass/ipd.scss */
 .btn-group > .btn, .btn-group-vertical > .btn {
   position: relative;
   float: left;
 }
 
-/* line 308, ../sass/ipd.scss */
+/* line 310, ../sass/ipd.scss */
 .btn {
   display: inline-block;
   padding: 6px 12px;
@@ -833,12 +838,12 @@ form .select-arrow:after, .form .select-arrow:after {
   user-select: none;
 }
 
-/* line 327, ../sass/ipd.scss */
+/* line 329, ../sass/ipd.scss */
 .open > .dropdown-menu {
   display: block;
 }
 
-/* line 330, ../sass/ipd.scss */
+/* line 332, ../sass/ipd.scss */
 .radio, .checkbox {
   display: block;
   min-height: 20px;
@@ -848,25 +853,25 @@ form .select-arrow:after, .form .select-arrow:after {
   vertical-align: middle;
 }
 
-/* line 338, ../sass/ipd.scss */
+/* line 340, ../sass/ipd.scss */
 input[type="radio"], form .input-prepend [type="radio"].add-on, input[type="checkbox"], form .input-prepend [type="checkbox"].add-on {
   margin: 4px 0 0;
   margin-top: 1px \9;
   line-height: normal;
 }
 
-/* line 343, ../sass/ipd.scss */
+/* line 345, ../sass/ipd.scss */
 .radio input[type="radio"], .radio form .input-prepend [type="radio"].add-on, form .input-prepend .radio [type="radio"].add-on, .radio-inline input[type="radio"], .radio-inline form .input-prepend [type="radio"].add-on, form .input-prepend .radio-inline [type="radio"].add-on, .checkbox input[type="checkbox"], .checkbox form .input-prepend [type="checkbox"].add-on, form .input-prepend .checkbox [type="checkbox"].add-on, .checkbox-inline input[type="checkbox"], .checkbox-inline form .input-prepend [type="checkbox"].add-on, form .input-prepend .checkbox-inline [type="checkbox"].add-on {
   float: left;
   margin-left: -20px;
 }
 
-/* line 347, ../sass/ipd.scss */
+/* line 349, ../sass/ipd.scss */
 .btn .caret {
   margin-left: 0;
 }
 
-/* line 350, ../sass/ipd.scss */
+/* line 352, ../sass/ipd.scss */
 .caret {
   display: inline-block;
   width: 0;
@@ -880,7 +885,7 @@ input[type="radio"], form .input-prepend [type="radio"].add-on, input[type="chec
   content: "";
 }
 
-/* line 363, ../sass/ipd.scss */
+/* line 365, ../sass/ipd.scss */
 .multiselect-container {
   position: absolute;
   list-style-type: none;
@@ -888,29 +893,29 @@ input[type="radio"], form .input-prepend [type="radio"].add-on, input[type="chec
   padding: 0;
 }
 
-/* line 369, ../sass/ipd.scss */
+/* line 371, ../sass/ipd.scss */
 .multiselect-container .input-group {
   margin: 5px;
 }
 
-/* line 372, ../sass/ipd.scss */
+/* line 374, ../sass/ipd.scss */
 .multiselect-container > li {
   padding: 0;
 }
 
-/* line 375, ../sass/ipd.scss */
+/* line 377, ../sass/ipd.scss */
 .multiselect-container > li > a.multiselect-all label {
   font-weight: bold;
 }
 
-/* line 378, ../sass/ipd.scss */
+/* line 380, ../sass/ipd.scss */
 .multiselect-container > li > label.multiselect-group {
   margin: 0;
   padding: 3px 20px 3px 20px;
   height: 100%;
 }
 
-/* line 383, ../sass/ipd.scss */
+/* line 385, ../sass/ipd.scss */
 .multiselect-container > li > a > label {
   margin: 0;
   height: 100%;
@@ -918,32 +923,268 @@ input[type="radio"], form .input-prepend [type="radio"].add-on, input[type="chec
   font-weight: normal;
 }
 
-/* line 390, ../sass/ipd.scss */
+/* line 392, ../sass/ipd.scss */
 .multiselect-container > li > a > label.radio,
 .multiselect-container > li > a > label.checkbox {
   margin: 0;
 }
 
-/* line 393, ../sass/ipd.scss */
+/* line 395, ../sass/ipd.scss */
 .multiselect-container > li > a > label > input[type="checkbox"], form .input-prepend .multiselect-container > li > a > label > [type="checkbox"].add-on {
   margin-bottom: 5px;
 }
 
-/* line 396, ../sass/ipd.scss */
+/* line 398, ../sass/ipd.scss */
 .btn-group > .btn-group:nth-child(2) > .multiselect.btn {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
 }
 
-@media only screen and (max-width: 1200px) {
-  /* line 402, ../sass/ipd.scss */
-  body {
-    font-size: 90%;
-  }
+/*** drop doen css end **/
+/* patient dashboard css start ***/
+/* line 406, ../sass/ipd.scss */
+.consultation {
+  *zoom: 1;
+  margin: 0px 0px 10px;
+  color: #585858;
 }
-@media only screen and (max-width: 760px) {
-  /* line 405, ../sass/ipd.scss */
+/* line 38, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.consultation:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 410, ../sass/ipd.scss */
+.consultation .header-action {
+  background: #ffffff;
+  width: 100px;
+  margin: 0px auto;
+  position: relative;
+}
+/* line 416, ../sass/ipd.scss */
+.consultation h2 {
+  font-size: 17.6px;
+  font-size: 1.1rem;
+  border-bottom: 1px solid #00463f;
+  color: #777575;
+  padding-bottom: 3px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-family: arial;
+}
+/* line 425, ../sass/ipd.scss */
+.consultation .block {
+  min-height: 150px;
+  padding: 10px;
+}
+/* line 428, ../sass/ipd.scss */
+.consultation .block .block-content {
+  padding-left: 20px;
+  color: #5C5B5C;
+  font-size: 15.2px;
+  font-size: 0.95rem;
+}
+/* line 434, ../sass/ipd.scss */
+.consultation .block.investigation li {
+  display: inline-block;
+  padding: 5px 7px;
+  margin-right: 25px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font: 14px/18px verdana,arial;
+  background: #efefef;
+}
+/* line 442, ../sass/ipd.scss */
+.consultation .block.investigation li .panel {
+  background: #555454;
+  color: #FFF;
+  display: inline-block;
+  width: 18px;
+  text-align: center;
+  height: 13px;
+  padding: 2px 0px;
+  font-size: 12px;
+  border-radius: 10px;
+  line-height: 15px;
+}
+/* line 457, ../sass/ipd.scss */
+.consultation .block.diagnosis h3 {
+  margin-bottom: 10px;
+  color: #FFF;
+  padding: 5px 5px;
+  background: #2B97D5;
+  font-size: 15.2px;
+  font-size: 0.95rem;
+}
+/* line 464, ../sass/ipd.scss */
+.consultation .block.diagnosis .block-content {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 467, ../sass/ipd.scss */
+.consultation .block.diagnosis .diagnosis-type {
+  float: left;
+  width: 400px;
+}
+/* line 470, ../sass/ipd.scss */
+.consultation .block.diagnosis .diagnosis-type div {
+  margin-bottom: 8px;
+}
+/* line 478, ../sass/ipd.scss */
+.consultation .block.treatment ul li {
+  padding: 6px 10px;
+}
+/* line 480, ../sass/ipd.scss */
+.consultation .block.treatment ul li .notes {
+  color: #9C510B;
+  margin-left: 20px;
+}
+/* line 490, ../sass/ipd.scss */
+.consultation .block.disposition ul li {
+  margin-bottom: 10px;
+}
+/* line 496, ../sass/ipd.scss */
+.consultation .block .vitals-list li {
+  width: 250px;
+  float: left;
+}
+/* line 502, ../sass/ipd.scss */
+.consultation .notes {
+  margin-top: 20px;
+}
+/* line 504, ../sass/ipd.scss */
+.consultation .notes textarea {
+  resize: none;
+}
+
+/* line 509, ../sass/ipd.scss */
+.patientdashboard, .particularvisit {
+  overflow: hidden;
+}
+/* line 511, ../sass/ipd.scss */
+.patientdashboard .block-module, .particularvisit .block-module {
+  overflow: hidden;
+}
+/* line 513, ../sass/ipd.scss */
+.patientdashboard .block-module .block-content, .particularvisit .block-module .block-content {
+  height: 220px;
+  overflow: scroll;
+}
+/* line 518, ../sass/ipd.scss */
+.patientdashboard .consultation, .particularvisit .consultation {
+  width: 80%;
+  float: left;
+}
+/* line 521, ../sass/ipd.scss */
+.patientdashboard .consultation .block, .particularvisit .consultation .block {
+  width: 48%;
+  float: left;
+}
+/* line 524, ../sass/ipd.scss */
+.patientdashboard .consultation .block.investigation, .particularvisit .consultation .block.investigation {
+  width: 98%;
+}
+/* line 529, ../sass/ipd.scss */
+.patientdashboard .consultation .investigation li, .particularvisit .consultation .investigation li {
+  background: none;
+  display: block;
+  margin-top: 5px;
+}
+/* line 536, ../sass/ipd.scss */
+.patientdashboard .consultation .diagnosis a, .particularvisit .consultation .diagnosis a {
+  background: #fff;
+}
+/* line 539, ../sass/ipd.scss */
+.patientdashboard .consultation .diagnosis small, .particularvisit .consultation .diagnosis small {
+  background: #dad4d4;
+}
+/* line 545, ../sass/ipd.scss */
+.patientdashboard .block-content ul li, .particularvisit .block-content ul li {
+  padding: 6px 10px;
+}
+/* line 549, ../sass/ipd.scss */
+.patientdashboard .patientdashboard-action, .particularvisit .patientdashboard-action {
+  width: 20%;
+  float: right;
+  height: 100%;
+  height: 780px;
+  background: #2F353F;
+}
+/* line 555, ../sass/ipd.scss */
+.patientdashboard .patientdashboard-action h2, .particularvisit .patientdashboard-action h2 {
+  font-size: 17.6px;
+  font-size: 1.1rem;
+  border-bottom: 1px solid #00463f;
+  color: #777575;
+  padding-bottom: 3px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-family: arial;
+}
+/* line 564, ../sass/ipd.scss */
+.patientdashboard .patientdashboard-action .block, .particularvisit .patientdashboard-action .block {
+  padding: 10px;
+}
+/* line 568, ../sass/ipd.scss */
+.patientdashboard .patientdashboard-action .visit-history, .particularvisit .patientdashboard-action .visit-history {
+  min-height: 100px;
+  max-height: 300px;
+  overflow: scroll;
+}
+/* line 572, ../sass/ipd.scss */
+.patientdashboard .patientdashboard-action .visit-history ul, .particularvisit .patientdashboard-action .visit-history ul {
+  margin-right: 5px;
+}
+/* line 574, ../sass/ipd.scss */
+.patientdashboard .patientdashboard-action .visit-history ul li, .particularvisit .patientdashboard-action .visit-history ul li {
+  border-right: 1px solid #fff;
+  color: #fff;
+  font-size: 12px;
+  text-align: right;
+  padding: 15px 8px;
+}
+/* line 580, ../sass/ipd.scss */
+.patientdashboard .patientdashboard-action .visit-history ul li.active, .particularvisit .patientdashboard-action .visit-history ul li.active {
+  background: #4D648B;
+}
+/* line 583, ../sass/ipd.scss */
+.patientdashboard .patientdashboard-action .visit-history ul li:hover, .particularvisit .patientdashboard-action .visit-history ul li:hover {
+  cursor: pointer;
+  background: #36435A;
+}
+/* line 590, ../sass/ipd.scss */
+.patientdashboard .patientdashboard-action .patientdashboard-action-list, .particularvisit .patientdashboard-action .patientdashboard-action-list {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* line 593, ../sass/ipd.scss */
+.patientdashboard .patientdashboard-action .patientdashboard-action-list li, .particularvisit .patientdashboard-action .patientdashboard-action-list li {
+  padding: 10px 0px;
+}
+/* line 595, ../sass/ipd.scss */
+.patientdashboard .patientdashboard-action .patientdashboard-action-list li a, .particularvisit .patientdashboard-action .patientdashboard-action-list li a {
+  padding: 5px 10px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+}
+/* line 602, ../sass/ipd.scss */
+.patientdashboard .patientdashboard-action .patientdashboard-action-list li a:hover, .particularvisit .patientdashboard-action .patientdashboard-action-list li a:hover {
+  background: #99A2B1;
+  color: #000;
+}
+
+@media only screen and (max-width: 768px) {
+  /* line 617, ../sass/ipd.scss */
   body {
     width: 760px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  /* line 620, ../sass/ipd.scss */
+  body {
+    font-size: 90%;
   }
 }
