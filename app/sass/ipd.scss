@@ -430,6 +430,7 @@ content: "";
       color:#5C5B5C;
       @include font-size(0.95);
     }
+
     &.investigation{
       li{
         display: inline-block;
@@ -512,12 +513,15 @@ content: "";
     overflow:hidden;
     .block-content{
       height:220px;
-      overflow:scroll;
+      overflow:hidden;
     }
+  }
+  dd{
+    margin:2px 0px;
   }
   .pd-date{
         background:#dad4d4;
-        padding:2px;
+        padding:2px 5px;
       }
     .pd-note{
       font-size: 13px;
@@ -534,9 +538,6 @@ content: "";
     .block{
       width:48%;
       float: left;
-      &.investigation{
-        width:98%;
-      }
     }
     .investigation{
       li{
