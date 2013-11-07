@@ -221,7 +221,7 @@ html,body{
         &.empty {
           background: beige;
           margin: 0px;
-          padding: 19px;
+          padding: 47px;
         }
       }
     }
@@ -429,6 +429,9 @@ content: "";
       padding-left:20px;
       color:#5C5B5C;
       @include font-size(0.95);
+      li{
+          padding: 6px 10px;
+      }
     }
 
     &.investigation{
@@ -494,8 +497,8 @@ content: "";
       }
     }
     .vitals-list{
+      overflow: hidden;
       li{
-        width:250px;
         float:left;
       }
     }
@@ -512,7 +515,7 @@ content: "";
   .block-module{
     overflow:hidden;
     .block-content{
-      height:220px;
+      height:225px;
       overflow:hidden;
     }
   }
@@ -520,17 +523,26 @@ content: "";
     margin:2px 0px;
   }
   .pd-date{
-        background:#dad4d4;
+        background:#D3E1FF;
         padding:2px 5px;
       }
     .pd-note{
       font-size: 13px;
+    }
+    .abnormal{
+      background: #FFCAA6;
+      display: inline-block;
+      padding:2px;
     }
     h2{
       border-bottom:4px solid #00463F;
     }
     dd{
       -webkit-margin-start:10px;
+    }
+    .pd-subheader{
+      color:#127E3D;
+      text-decoration: underline;
     }
   .consultation{
     width:80%;
@@ -539,11 +551,14 @@ content: "";
       width:48%;
       float: left;
     }
-    .investigation{
+    .radiology{
       li{
         background:none;
         display:block;
-        margin-top:0px;
+        a{
+          font-size:14px;
+          color:#000;
+        }
       }
     }
     .diagnosis{
@@ -623,7 +638,98 @@ content: "";
   }
 }
 }
+.investigation-wrapper{
+    width:960px;
+    padding-top:20px;
+  .tree-container{
+    overflow: hidden;
+    .investigation-l{
+      float:left;
+      width:250px;
+      .sample-block{
+           h2{
+        background:#5f5d5d;
+        color:#fff;
+        padding:10px 10px;
+        font-size: 14px;
+        margin-top:0px;
+        margin-bottom:0px;
+        -webkit-border-top-left-radius: 10px;
+        -moz-border-radius-topleft: 10px;
+        border-top-left-radius: 10px;      
+      }
+      ul{
+        li{
+          border-bottom:1px solid #cecece;
+          border-left:1px solid #cecece;
+          a{
+          padding:10px 0px 10px 20px;
+          background:#457FAC;
+          color:#fff;
+          display: block;
+          
+          &:hover{
+            background:#fff;
+            border-right:1px solid #fff;
+            color:#000;
+            text-decoration: none;
+            position:relative;
+            left:2px;
+          }
+        }
+        &:last-child a{
+             -webkit-border-bottom-left-radius: 10px;
+             -moz-border-radius-bottomleft: 10px;
+             border-bottom-left-radius: 10px;
+          }
+        }
+      }
+      }
+   
+    }
+    .investigation-r{
+      float:left;
+      padding-left:10px;
+      width:700px;
+      border:1px solid #cecece;
+      padding-top:12px;
+      .test-block{
+        overflow: hidden;
+        width:322px;
+        float: left;
+        margin-bottom: 20px;
+        margin-right:20px;
+        font-size:14px;
+      }
+      h2{
+        background:#5f5d5d;
+        color:#fff;
+        padding:3px 10px;
+        font-size: 14px;
+        margin-top:0px;
+                margin-bottom:0px;
 
+      }
+      ul{
+        li{
+          a{
+            padding:10px 0px 10px 40px;
+            color:#000;
+            display: block;
+            text-decoration: none;
+            &:hover{
+              background: #EEF1EF;
+            }
+            &.testselected{
+              background-image:url() no-repeat top left;
+            }
+          }
+        }
+      }
+    }
+
+  }
+}
 
 @media only screen and (max-width: 768px) {
   body{width:760px;}

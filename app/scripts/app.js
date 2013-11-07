@@ -9,6 +9,7 @@ angular.module('JSSMockupApp', [])
       .when('/particularvisit', {templateUrl: 'views/particularvisit.html'})
       .when('/patientdashboard', {templateUrl: 'views/patientdashboard.html'})
       .when('/vitals', {templateUrl: 'views/vitals.html'})
+      .when('/investigation', {templateUrl: 'views/investigation.html'})
       .otherwise({redirectTo: '/'});
   });
 
